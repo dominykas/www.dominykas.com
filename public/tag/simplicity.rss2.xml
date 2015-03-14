@@ -9,11 +9,11 @@
 	>
 
 <channel>
-	<title>dominykas.com &#187; Simplicity</title>
+	<title>Asking some questions, looping some events &#187; Simplicity</title>
 	<atom:link href="http://www.dominykas.com/tag/simplicity.rss2.xml" rel="self" type="application/rss+xml" />
 	<link>http://www.dominykas.com</link>
-	<description>I&#039;d like to someday write a book about asking the right questions</description>
-	<lastBuildDate>Sun, 05 Jan 2014 14:52:15 +0000</lastBuildDate>
+	<description>Dominykas Blyžė has a blog</description>
+	<lastBuildDate>Sat, 14 Mar 2015 12:03:24 +0000</lastBuildDate>
 	<generator>http://wordpress.org/?v=2.9.2</generator>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>

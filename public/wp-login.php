@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 <head>
-	<title>dominykas.com &rsaquo; Log In</title>
+	<title>Asking some questions, looping some events &rsaquo; Log In</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel='stylesheet' id='login-css'  href='http://www.dominykas.com/wp-admin/css/login.css?ver=20091010' type='text/css' media='all' />
 <link rel='stylesheet' id='colors-fresh-css'  href='http://www.dominykas.com/wp-admin/css/colors-fresh.css?ver=20091217' type='text/css' media='all' />
@@ -9,7 +9,7 @@
 </head>
 <body class="login">
 
-<div id="login"><h1><a href="http://wordpress.org/" title="Powered by WordPress">dominykas.com</a></h1>
+<div id="login"><h1><a href="http://wordpress.org/" title="Powered by WordPress">Asking some questions, looping some events</a></h1>
 
 <form name="loginform" id="loginform" action="http://www.dominykas.com/wp-login.php" method="post">
 	<p>
@@ -32,7 +32,7 @@
 <a href="http://www.dominykas.com/wp-login.php?action=lostpassword" title="Password Lost and Found">Lost your password?</a>
 </p>
 
-<p id="backtoblog"><a href="http://www.dominykas.com/" title="Are you lost?">&larr; Back to dominykas.com</a></p>
+<p id="backtoblog"><a href="http://www.dominykas.com/" title="Are you lost?">&larr; Back to Asking some questions, looping some events</a></p>
 </div>
 
 <script type="text/javascript">
