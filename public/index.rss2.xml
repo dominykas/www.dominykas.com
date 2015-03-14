@@ -284,20 +284,20 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 
 		<guid isPermaLink="false">https://www.dominykas.com/?p=68</guid>
 		<description><![CDATA[A bit over a week ago Chris Heilmann published a post on table of contents generators, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of my own implementation of the HTML5 outlining routine &#8211; and what better way to measure it, than [...]]]></description>
-			<content:encoded><![CDATA[<p>A bit over a week ago <a href="http://www.wait-till-i.com/2010/01/06/the-table-of-contents-script-my-old-nemesis/">Chris Heilmann published a post on table of contents generators</a>, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of <a href="http://code.google.com/p/h5o/">my own implementation of the HTML5 outlining routine</a> &#8211; and what better way to measure it, than to compare it with some other approaches while I&#8217;m at it. To no surprise, I lost. Big time.</p>
+			<content:encoded><![CDATA[<p>A bit over a week ago <a href="http://www.wait-till-i.com/2010/01/06/the-table-of-contents-script-my-old-nemesis/">Chris Heilmann published a post on table of contents generators</a>, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of <a href="https://github.com/h5o">my own implementation of the HTML5 outlining routine</a> &#8211; and what better way to measure it, than to compare it with some other approaches while I&#8217;m at it. To no surprise, I lost. Big time.</p>
 <h2>Results</h2>
 <ol>
 <li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_yui3.html">YUI based approach</a> (136ms)</li>
 <li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_dom.html">DOM based approach</a> (247ms)</li>
 <li>Stuart Langridge&#8217;s <a href="http://www.kryogenix.org/code/browser/generated-toc/">generated-toc</a> (258ms)</li>
 <li><a href="http://github.com/joshwnj/toc">Josh Johnston&#8217;s solution</a> with jQuery (781ms)</li>
-<li>My own <a href="http://code.google.com/p/h5o/">HTML5 Outliner</a> (3099ms)</li>
+<li>My own <a href="https://github.com/h5o">HTML5 Outliner</a> (3099ms)</li>
 <li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_js.html">RegExp based approach</a> (4440ms)</li>
 <li><a href="http://lab.diogovincenzi.com/blog/view/table-contents-jquery">Diogo Vincenzi&#8217;s solution</a> with jQuery (9334ms)</li>
 </ol>
 <h3>Methodology</h3>
 <p>The numbers above are based on an 1.5Mb file, which has some 200 headings to use for the TOC table. The actual file, was created out of HTML4 specification part on forms, to reflect a more natural usage. The results were a bit different, when I used my own generated file, which had a lot more headings, and a lot less text.</p>
-<p>The test runner itself would create an <code>iframe</code>, load the test document inside, inject the required script and call it. The <a href="http://code.google.com/p/h5o/source/browse/trunk/benchmark">source is available</a> on Google Code (though be aware, that you will need to procure and hack the dependencies yourself).</p>
+<p>The test runner itself would create an <code>iframe</code>, load the test document inside, inject the required script and call it. The <a href="https://github.com/h5osource/browse/trunk/benchmark">source is available</a> on Google Code (though be aware, that you will need to procure and hack the dependencies yourself).</p>
 <p>I ran it on a decent 2.2Ghz laptop, using a vanilla version of Portable Firefox 3.5. With some exceptions (see below), the results were comparable and not unexpected in other browsers.</p>
 <h2>Insights</h2>
 <ul>
