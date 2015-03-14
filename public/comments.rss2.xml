@@ -6,8 +6,8 @@
 		>
 <channel>
 	<title>Comments for Asking some questions, looping some events</title>
-	<atom:link href="http://www.dominykas.com/comments.rss2.xml" rel="self" type="application/rss+xml" />
-	<link>http://www.dominykas.com</link>
+	<atom:link href="https://www.dominykas.com/comments.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>https://www.dominykas.com</link>
 	<description>Dominykas Blyžė has a blog</description>
 	<lastBuildDate>Sat, 15 Dec 2012 01:43:46 +0000</lastBuildDate>
 	<generator>http://wordpress.org/?v=2.9.2</generator>
@@ -15,14 +15,14 @@
 	<sy:updateFrequency>1</sy:updateFrequency>
 		<item>
 		<title>Comment on OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites by skopp</title>
-		<link>http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html/comment-page-1#comment-21789</link>
+		<link>https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html/comment-page-1#comment-21789</link>
 		<dc:creator>skopp</dc:creator>
 		<pubDate>Sat, 15 Dec 2012 01:43:46 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=147#comment-21789</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=147#comment-21789</guid>
 		<description>Although I wouldn&#039;t call myself a fan of Nielsen and/or his rating concepts, that it irrelevant. But you know how it is, we humans love to insert our 5 cents, because everyone else really wants to hear it.
 
-I completely agree with this phrase: “well designed mobile specific sites”... in my side of the globe (S. Africa), Blackberry&#039;s are extremely popular, and continue to thrive. Many people either use a Blackberry only, or as a &#039;second phone&#039;. 
-I&#039;m one of the latter, I find it unparalleled when it comes to email push functionality, always-on IM (I can&#039;t think of another IM like BBM, which cannot be switched off completely - without some hacking). 
+I completely agree with this phrase: “well designed mobile specific sites”... in my side of the globe (S. Africa), Blackberry&#039;s are extremely popular, and continue to thrive. Many people either use a Blackberry only, or as a &#039;second phone&#039;.
+I&#039;m one of the latter, I find it unparalleled when it comes to email push functionality, always-on IM (I can&#039;t think of another IM like BBM, which cannot be switched off completely - without some hacking).
 Also, as an e-book reader (I collect them as pdf&#039;s), and for light browsing-in-bed, again... champion. Pity about the OS6 and 7 loaded Curves. They have the nifty Webkit browser, but it&#039;s only good at crashing - it does that like a BOSS.  On the Torch&#039;s and Bolds too, but they have more RAM and all that fancy stuff.
 
 I haven&#039;t really had an OS10 phone long enough to abuse it yet, but it doesn&#039;t matter. I was getting to the following: most people have (it is indeed probable, but let&#039;s assume it true) OS 4, 5, 6 and 7 starter to mid-range Blackberrys, or an S60/Symbian, Windows 6.5 or lower and there are plenty of J2ME phones around.
@@ -41,10 +41,10 @@ Also, as an e-book reader (I collect them as pdf&#8217;s), and for light browsin
 	</item>
 	<item>
 		<title>Comment on (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL by Abdoulaye Siby</title>
-		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-7756</link>
+		<link>https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-7756</link>
 		<dc:creator>Abdoulaye Siby</dc:creator>
 		<pubDate>Tue, 09 Aug 2011 01:58:42 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=108#comment-7756</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=108#comment-7756</guid>
 		<description>Interesting. I thought I was the first one to have this idea. To good this is that at least I know now that what I was doing is not that crazy at all. I also have Windows 7 and Proxmox running on VirtualBox. It works flawlessly and take far less resources when using ONLY OpenVZ containers.
 
 I have an annoyance that I am experiencing though ... My home network is using 192.168.2.x ... and Proxmox is using 192.168.2.15 (static IP configured inside Proxmox)
@@ -60,10 +60,10 @@ Cheers.</description>
 	</item>
 	<item>
 		<title>Comment on javascript:void(0) must die by stephband</title>
-		<link>http://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-1354</link>
+		<link>https://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-1354</link>
 		<dc:creator>stephband</dc:creator>
 		<pubDate>Sat, 09 Oct 2010 18:41:54 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=8#comment-1354</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=8#comment-1354</guid>
 		<description>Right on. We use a tags with href=&quot;#action_name&quot; at webdoc.com - and that&#039;s because I have been bitten by button style before. I haven&#039;t tested them in a year, but back when I did FireFox was the culprit - it was impossible to remove overflow: hidden, among other things, I seem to remember.
 
 Anyway, at some point I&#039;m going to move our buttons to being command tags, the new html5 element for application commands.  In the spec, it appears you can replace li tags in a ul or menu with command tags, which is pretty groovy.</description>
@@ -73,10 +73,10 @@ Anyway, at some point I&#039;m going to move our buttons to being command tags, 
 	</item>
 	<item>
 		<title>Comment on (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL by David Sugar</title>
-		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-1069</link>
+		<link>https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-1069</link>
 		<dc:creator>David Sugar</dc:creator>
 		<pubDate>Mon, 13 Sep 2010 21:05:39 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=108#comment-1069</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=108#comment-1069</guid>
 		<description>The strange thing is your weird setup actually makes perfect sense to me, at least for setting up testing appliances.  I was thinking of doing a sipwitch testing appliance and a backup/test site for my main public site, which uses mediawiki, and maybe something for something else.  None of these really require a full vm by themselves (which seems a huge waste of resources), I did not wish to mix them together in testing, nor did I wish to dedicate a box just for things that have rather transient use.  Disk space and memory I do have plenty of on my main dev box, I too have become rather familiar with virtualbox, and I also like it&#039;s small footprint and simplicity.
 
 It&#039;s possible with the newer kernel in proxmox 1.6 (it now uses 2.6.32) will remap /dev/sda correctly from first boot, though I think I may try the virtualbox sata if it has better performance.</description>
@@ -86,10 +86,10 @@ It&#039;s possible with the newer kernel in proxmox 1.6 (it now uses 2.6.32) wil
 	</item>
 	<item>
 		<title>Comment on javascript:void(0) must die by Dominykas</title>
-		<link>http://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-6</link>
+		<link>https://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-6</link>
 		<dc:creator>Dominykas</dc:creator>
 		<pubDate>Thu, 03 Dec 2009 20:19:22 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=8#comment-6</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=8#comment-6</guid>
 		<description>Mark, even if you hadn&#039;t provided real URLs from the start, you can always link to named anchors, i.e. #something - as long as #something exists (even a div with an id will do) - it&#039;s better than void. Forgot to include that in the post :)
 
 I did, indeed, not elaborate on the whole GET/POST topic - but hey - it&#039;s for future use :) Especially if I get a chance to publish the security slides.
@@ -108,10 +108,10 @@ There&#039;s no reason to be lazy, whether client pays for it or not. If one sta
 	</item>
 	<item>
 		<title>Comment on javascript:void(0) must die by Mark Lennox</title>
-		<link>http://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-5</link>
+		<link>https://www.dominykas.com/2009/12/javascript-void-must-die.html/comment-page-1#comment-5</link>
 		<dc:creator>Mark Lennox</dc:creator>
 		<pubDate>Thu, 03 Dec 2009 13:39:09 +0000</pubDate>
-		<guid isPermaLink="false">http://www.dominykas.com/?p=8#comment-5</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=8#comment-5</guid>
 		<description>Using real URL&#039;s is great as long as you have built that into your design from the start. You should probably mention that using GET&#039;s to update/delete is probably not a good thing - which people might implement while taking a short-cut.
 
 Redirecting to a new form from the link to support regressive dehancement ;) is my favourite choice, also links are crawlable, URL&#039;s don&#039;t need to be maintained in server-side AND javascript etc. - but it means more coding, and the client won&#039;t pay for that (time, not necessarily money). But that opens up the whole question of selling basic functionality to the business, which is always a hard sell - &quot;gimme what I want, not what I need&quot;</description>

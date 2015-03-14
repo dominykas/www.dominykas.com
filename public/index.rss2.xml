@@ -10,8 +10,8 @@
 
 <channel>
 	<title>Asking some questions, looping some events</title>
-	<atom:link href="http://www.dominykas.com/index.rss2.xml" rel="self" type="application/rss+xml" />
-	<link>http://www.dominykas.com</link>
+	<atom:link href="https://www.dominykas.com/index.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>https://www.dominykas.com</link>
 	<description>Dominykas Blyžė has a blog</description>
 	<lastBuildDate>Sat, 14 Mar 2015 12:03:24 +0000</lastBuildDate>
 	<generator>http://wordpress.org/?v=2.9.2</generator>
@@ -20,8 +20,8 @@
 	<sy:updateFrequency>1</sy:updateFrequency>
 			<item>
 		<title>But it&#8217;s easy&#8230;</title>
-		<link>http://www.dominykas.com/2014/01/but-its-easy.html</link>
-		<comments>http://www.dominykas.com/2014/01/but-its-easy.html#comments</comments>
+		<link>https://www.dominykas.com/2014/01/but-its-easy.html</link>
+		<comments>https://www.dominykas.com/2014/01/but-its-easy.html#comments</comments>
 		<pubDate>Sun, 05 Jan 2014 14:52:15 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Geeky stuff]]></category>
@@ -30,7 +30,7 @@
 		<category><![CDATA[Simplicity]]></category>
 		<category><![CDATA[Underengineering]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=153</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=153</guid>
 		<description><![CDATA[Here&#8217;s a sample of how your &#8220;it&#8217;s easy&#8221; and my &#8220;sure, probably half an hour&#8221; becomes &#8220;half a day&#8221;:
 
 You want me to make the Thing clickable?
@@ -81,19 +81,19 @@ When you move your mouse over &#8211; how [...]]]></description>
 <p>Some changes are easier. Some are even trickier. I can&#8217;t recall the last time I said &#8220;sure, it&#8217;s trivial&#8221;, and it really was&#8230;</p>
 <p>☑ Write a blog post this year.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2014/01/but-its-easy.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2014/01/but-its-easy.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites</title>
-		<link>http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html</link>
-		<comments>http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html#comments</comments>
+		<link>https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html</link>
+		<comments>https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html#comments</comments>
 		<pubDate>Thu, 12 Apr 2012 12:42:53 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
 		<category><![CDATA[responsive design]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=147</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=147</guid>
 		<description><![CDATA[Two days ago Jakob Nielsen published a new Alertbox column: Mobile Site vs. Full Site, which seems to have caused some uproar in the web community, openly mocking his ideas:
 Jakob Nielsen&#8217;s April Fools Day piece on mobile is HILARIOUS. So boneheadedly wrong. But why April 10? (@karenmcgrane)
 
@@ -117,33 +117,33 @@ Honestly, I&#8217;m not sure I see the contradiction between [...]]]></descripti
 <p>As long as each user sees the appropriate design, the choice between these implementation options should be an engineering decision and not a usability decision.</p>
 </blockquote>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.rss2.xml</wfw:commentRss>
 		<slash:comments>1</slash:comments>
 		</item>
 		<item>
 		<title>DublinJS August meetup kata</title>
-		<link>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html</link>
-		<comments>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html#comments</comments>
+		<link>https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html</link>
+		<comments>https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html#comments</comments>
 		<pubDate>Sun, 14 Aug 2011 15:26:03 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
 		<category><![CDATA[dublinjs]]></category>
 		<category><![CDATA[javascript]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=141</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=141</guid>
 		<description><![CDATA[I&#8217;m doing a kata for this month&#8217;s meetup of Javascript Dublin group and my choice is Roman Numerals. It&#8217;s simple enough and it also demos some interesting transformations of the code during the whole TDD process (if you stick to the mantra of &#8220;write the simplest possible thing&#8221;). I found that I could also put [...]]]></description>
 			<content:encoded><![CDATA[<p>I&#8217;m doing a kata for <a href="http://www.meetup.com/Javascript-Dublin/events/27369271/">this month&#8217;s</a> meetup of <a href="https://groups.google.com/group/dublinjs">Javascript Dublin</a> group and my choice is <a href="http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals"><strong>Roman Numerals</strong></a>. It&#8217;s simple enough and it also demos some interesting transformations of the code during the whole TDD process (if you stick to the mantra of &#8220;write the simplest possible thing&#8221;). I found that I could also put some of the new ES5 features into practice: <code>Object.keys()</code>, <code>Array.prototype.forEach()</code> and <code>Array.prototype.reduce()</code>.</p>
 <p>The Coding Dojo page for this kata also has a <a href="http://vimeo.com/15104374">video of it performed in Ruby</a>. There&#8217;s also a link to a video of it in Excel, but as much as it sounds good, it&#8217;s just building a VB macro&#8230;</p>
 <p>You can find <a href="https://github.com/dymonaz/dublinjs">my code on GitHub</a>. I have also prepared a <a href="https://github.com/dymonaz/dublinjs/blob/master/roman_numbers.walkthrough.txt">walk through</a> on how I arrived at <a href="https://github.com/dymonaz/dublinjs/tree/master/20110814.roman_numbers">my solution</a> (txt is the new ppt!)</p>
 <p>The previous kata sessions used Jasmine &#8211; and it works just fine &#8211; but I chose to do things with YUI Test. If you feel like it &#8211; I prepared a <a href="https://github.com/dymonaz/dublinjs/tree/master/yui-test-harness">skeleton for the project</a>. Note that it loads YUI from Yahoo&#8217;s CDN, so make sure you&#8217;re online (or update the harness.html).</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>Opera Extensions: messaging example</title>
-		<link>http://www.dominykas.com/2010/11/opera-extensions-messaging-example.html</link>
-		<comments>http://www.dominykas.com/2010/11/opera-extensions-messaging-example.html#comments</comments>
+		<link>https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html</link>
+		<comments>https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html#comments</comments>
 		<pubDate>Thu, 04 Nov 2010 01:08:33 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
@@ -151,7 +151,7 @@ Honestly, I&#8217;m not sure I see the contradiction between [...]]]></descripti
 		<category><![CDATA[javascript]]></category>
 		<category><![CDATA[opera]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=117</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=117</guid>
 		<description><![CDATA[I already vented out my frustration with examples that have flaws, so this one is more constructive and tries to actually explain and solve things. You&#8217;re welcome to skip all of that and just get the example code.
 It may not be 100% correct, it may have it&#8217;s own flaws, and obviously it may soon become [...]]]></description>
 			<content:encoded><![CDATA[<p>I already <a href="http://twitter.com/dymonaz/status/29608503399">vented out</a> my <a href="http://dev.opera.com/forums/topic/793632">frustration with examples that have flaws</a>, so this one is more constructive and tries to actually explain and solve things. You&#8217;re welcome to skip all of that and just <a href="http://code.dominykas.com/opera-extensions/title_in_popup.oex">get the example code</a>.</p>
@@ -206,13 +206,13 @@ It may not be 100% correct, it may have it&#8217;s own flaws, and obviously it m
 </ul>
 <p>I hope the time spent with frustration, figuring things out and writing up this article was worth it. I also hope that it&#8217;s useful for at least one other person. However, in case of the information in here is already published and the questions are already answered &#8211; please &#8211; drop me a link in the comments or <a href="http://twitter.com/dymonaz">on twitter @dymonaz</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2010/11/opera-extensions-messaging-example.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2010/11/opera-extensions-messaging-example.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL</title>
-		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html</link>
-		<comments>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html#comments</comments>
+		<link>https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html</link>
+		<comments>https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html#comments</comments>
 		<pubDate>Sun, 16 May 2010 22:42:46 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Geeky stuff]]></category>
@@ -223,7 +223,7 @@ It may not be 100% correct, it may have it&#8217;s own flaws, and obviously it m
 		<category><![CDATA[virtualbox]]></category>
 		<category><![CDATA[vm]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=108</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=108</guid>
 		<description><![CDATA[Positive start: my new Dell XPS 8100 is now ready for work. To achieve that I had to overcome a couple of puzzlers. They were mostly related to my weird requirements, which I guess are not the common set up path&#8230;
 The weird setup
 
@@ -245,36 +245,36 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 <p>Considering that Lucid doesn&#8217;t really support being the host, or the guest of OpenVZ, this comes as no surprise and the bug is marked as &#8220;<a href="https://bugs.launchpad.net/ubuntu/+source/mysql-dfsg-5.1/+bug/566736">Won&#8217;t fix</a>&#8220;. Luckily, there&#8217;s a smart guy, <a href="http://blog.bodhizazen.net/linux/ubuntu-10-04-openvz-templates/">who has a workaround</a>. Solution: edit <code>/etc/init/mysql.conf</code> to have it <code>start on runlevel [2345]</code>, instead of the default method, which depends on networking.</p>
 <p>I think, I now have all the ingredients to start working on the <em>???</em> part!</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml</wfw:commentRss>
 		<slash:comments>2</slash:comments>
 		</item>
 		<item>
 		<title>Just how much does performance matter?</title>
-		<link>http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html</link>
-		<comments>http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html#comments</comments>
+		<link>https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html</link>
+		<comments>https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html#comments</comments>
 		<pubDate>Wed, 07 Apr 2010 20:40:57 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
 		<category><![CDATA[analytics]]></category>
 		<category><![CDATA[performance]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=82</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=82</guid>
 		<description><![CDATA[I have recently moved my dedicated server to a new provider. I mostly did this for pricing reasons, but there&#8217;s also the benefit of network speed, as most of my visitors and now &#8211; the server itself &#8211; are in Europe. This move, coupled with a few optimizations, has opened my eyes towards some data [...]]]></description>
 			<content:encoded><![CDATA[<p>I have recently moved my dedicated server to a new provider. I mostly did this for pricing reasons, but there&#8217;s also the benefit of network speed, as most of my visitors and now &#8211; the server itself &#8211; are in Europe. This move, coupled with a few optimizations, has opened my eyes towards some data &#8211; the impact of page load time on &#8220;pages per visit&#8221; metric. While the general theory behind the relationship of the two is clear to everyone, the actual numbers did shock me.</p>
 <p>There is a small community that I am hosting &#8211; it has roughly 2000 members, who are pretty active. As the community does not accept any new members, the results reflect just the <strong>engagement based on page load speed</strong>. I did not really take measurements, and <a href="http://www.google.com/webmasters/">Webmaster Central</a> page speed lab tool is unable to provide the numbers due to the closed nature of the community, I estimate that the average full page <strong>load time decreased from some 8-12s to 3-5s</strong>. The effect on <strong>pageviews? PLUS THIRTY FIVE PERCENT</strong>. There is no change in the number of visits (sessions), but the number of pageviews is up by a third <strong>instantly</strong>. Check out the graph:</p>
-<p style="text-align:center;"><a href="http://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv.png"><img src="http://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv-300x72.png" alt="" title="page-speed-improves-ppv" width="300" height="72" class="aligncenter size-medium wp-image-83"/></a></p>
+<p style="text-align:center;"><a href="https://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv.png"><img src="https://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv-300x72.png" alt="" title="page-speed-improves-ppv" width="300" height="72" class="aligncenter size-medium wp-image-83"/></a></p>
 <p>There is one more statistically significant website that I had a chance to test. This time, the page load time decreased from 5s to 1.5s. Yet again &#8211; the pages per visit number is up by 12%. Now, here&#8217;s the best part of it all &#8211; the two websites are somewhat related (you may call them &#8220;affiliates&#8221; if you&#8217;d like). Since both of them had substantial speed improvements &#8211; the referral rate from one to the other has actually increased&#8230; <strong>threefold</strong>.</p>
 <p>While I must say, that the actual time on site has not increased as much, the pageview count is what matters a lot if you&#8217;re participating in <abbr title="Pay per click">PPC</abbr>. Funny thing, is that if you <em>are</em> actually participating in <a href="http://www.stevesouders.com/blog/2010/03/29/p3pc-google-adsense/">Google AdSense &#8211; that will be the bottleneck</a>.</p>
 <p>At the end of the day &#8211; the overall user experience improvement is quite immeasurable and the pleasure of having your visitors tell you &#8220;wow this is fast&#8221; is indescribable.</p>
 <p>Worried about premature optimization? Well, it still holds true that you should only optimize where it hurts.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>Benchmark: HTML outlining/TOC scripts</title>
-		<link>http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html</link>
-		<comments>http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html#comments</comments>
+		<link>https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html</link>
+		<comments>https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html#comments</comments>
 		<pubDate>Mon, 18 Jan 2010 22:09:12 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
@@ -282,7 +282,7 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 		<category><![CDATA[html]]></category>
 		<category><![CDATA[javascript]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=68</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=68</guid>
 		<description><![CDATA[A bit over a week ago Chris Heilmann published a post on table of contents generators, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of my own implementation of the HTML5 outlining routine &#8211; and what better way to measure it, than [...]]]></description>
 			<content:encoded><![CDATA[<p>A bit over a week ago <a href="http://www.wait-till-i.com/2010/01/06/the-table-of-contents-script-my-old-nemesis/">Chris Heilmann published a post on table of contents generators</a>, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of <a href="http://code.google.com/p/h5o/">my own implementation of the HTML5 outlining routine</a> &#8211; and what better way to measure it, than to compare it with some other approaches while I&#8217;m at it. To no surprise, I lost. Big time.</p>
 <h2>Results</h2>
@@ -309,13 +309,13 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 <li>I have plenty of space for improvement &#8211; it will be fun!</li>
 </ul>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>ASP.NET MVC generates invalid ClientIDs</title>
-		<link>http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html</link>
-		<comments>http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html#comments</comments>
+		<link>https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html</link>
+		<comments>https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html#comments</comments>
 		<pubDate>Sat, 19 Dec 2009 16:03:05 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
@@ -323,7 +323,7 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 		<category><![CDATA[html]]></category>
 		<category><![CDATA[yui]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=40</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=40</guid>
 		<description><![CDATA[This week I had a joy of spending several hours trying to solve and intermitently happening bug. In short, some 2 times out of 3 the YUI selector utility failed to lookup elements in an XHR loaded HTML fragment. After digging quite deep into the YUI code, I found that it was actually the fault [...]]]></description>
 			<content:encoded><![CDATA[<p>This week I had a joy of spending several hours trying to solve and intermitently happening bug. In short, some 2 times out of 3 the <a href="http://developer.yahoo.com/yui/selector/">YUI selector</a> utility failed to lookup elements in an XHR loaded HTML fragment. After digging quite deep into the YUI code, I found that it was actually the fault of the way <a href="http://www.asp.net/mvc/">ASP.NET MVC</a> treats partial views. </p>
 <h2>Summary</h2>
@@ -332,7 +332,7 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 <li>It correctly assumes, that uniqueness of ClientID should be preserved</li>
 <li>It incorrectly does not prepend an alpha-character to automatically generated GUID based IDs</li>
 <li>User agents and selector libraries may correctly ignore such invalid IDs</li>
-<li><a href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html#solution-20091219">Solution: override <code>ViewUserControl.UniqueID</code></a></li>
+<li><a href="https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html#solution-20091219">Solution: override <code>ViewUserControl.UniqueID</code></a></li>
 </ul>
 <h2>The problem with ASP.NET MVC</h2>
 <p>ASP.NET MVC allows you to return an ASCX control as a view. This allows using a very nice pattern, of loading only parts of the page using XHR, while still being able to use the same controls when the full page is generated.</p>
@@ -366,13 +366,13 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 </pre>
 <p>Now&#8230; where do I report bugs in ASP.NET MVC?..</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
 		<title>javascript:void(0) must die</title>
-		<link>http://www.dominykas.com/2009/12/javascript-void-must-die.html</link>
-		<comments>http://www.dominykas.com/2009/12/javascript-void-must-die.html#comments</comments>
+		<link>https://www.dominykas.com/2009/12/javascript-void-must-die.html</link>
+		<comments>https://www.dominykas.com/2009/12/javascript-void-must-die.html#comments</comments>
 		<pubDate>Wed, 02 Dec 2009 23:32:31 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Webbie stuff]]></category>
@@ -380,7 +380,7 @@ The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]><
 		<category><![CDATA[html]]></category>
 		<category><![CDATA[javascript]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=8</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=8</guid>
 		<description><![CDATA[Pretty much two weeks ago I dropped my notes from FullFrontal 2009 onto developer&#8217;s forum at work. And one full colleague of mine enquired why did I say that &#8220;javascript:void(0) must die&#8221;. I didn&#8217;t really have a chance to follow it up until now (happy birthday, dear blog).
 It doesn&#8217;t do anything, it just sits there!
 Now, [...]]]></description>
@@ -405,18 +405,18 @@ Now, [...]]]></description>
 <p>Still, you can attach your <code>onclick</code> handlers on anything you want &#8211; <code>div</code>, <code>span</code> and so on. In such cases, you should also add <code>tabindex</code> to make elements focusable and make use of ARIA roles to provide guidelines on behaviour. It&#8217;s not really that hard, now, is it?</p>
 <p>The only really painful thing here is providing <code>:hover</code> and <code>:focus</code> styles on IE6. But IE6 should also die, together with <code>javascript:void(0)</code>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2009/12/javascript-void-must-die.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2009/12/javascript-void-must-die.rss2.xml</wfw:commentRss>
 		<slash:comments>3</slash:comments>
 		</item>
 		<item>
 		<title>Hello world!</title>
-		<link>http://www.dominykas.com/2009/12/hello-world.html</link>
-		<comments>http://www.dominykas.com/2009/12/hello-world.html#comments</comments>
+		<link>https://www.dominykas.com/2009/12/hello-world.html</link>
+		<comments>https://www.dominykas.com/2009/12/hello-world.html#comments</comments>
 		<pubDate>Wed, 02 Dec 2009 21:28:24 +0000</pubDate>
 		<dc:creator>Dominykas</dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">http://www.dominykas.com/?p=1</guid>
+		<guid isPermaLink="false">https://www.dominykas.com/?p=1</guid>
 		<description><![CDATA[There is no long story. My blog in Lithuanian will have a second birthday in 5 days. Here&#8217;s my present to myself.
 
 I write, you read and comment
@@ -433,7 +433,7 @@ Oh, and yes, you&#8217;re right &#8211; now that I have a blog, I will not updat
 </ol>
 <p>Oh, and yes, you&#8217;re right &#8211; now that I have a blog, I will not update it frequently.</p>
 ]]></content:encoded>
-			<wfw:commentRss>http://www.dominykas.com/2009/12/hello-world.rss2.xml</wfw:commentRss>
+			<wfw:commentRss>https://www.dominykas.com/2009/12/hello-world.rss2.xml</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

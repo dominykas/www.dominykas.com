@@ -1,10 +1,10 @@
 /*
 Theme Name: dominykas.com - html5
-Theme URI: http://www.dominykas.com/
+Theme URI: https://www.dominykas.com/
 Description: HTML5
 Version: 0.2
 Author: Dominykas Blyze
-Author URI: http://www.dominykas.com/
+Author URI: https://www.dominykas.com/
 */
 @import 'images/reset.css';
 header, section, nav, footer, hgroup, article { display: block; }
@@ -22,7 +22,7 @@ header, section, nav, footer, hgroup, article { display: block; }
 
 
 
-#page 
+#page
 {
 	width: 960px;
 	margin: 0 auto;
@@ -70,7 +70,7 @@ h1
 	font-size: 1.5em;
 	font-weight: bold;
 }
-h2 
+h2
 {
 	font-size: 1.33em;
 	font-weight: bold;
