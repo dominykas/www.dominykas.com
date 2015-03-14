@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dominykas.com &#187; dublinjs</title>
+	<atom:link href="http://www.dominykas.com/tag/dublinjs.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.dominykas.com</link>
+	<description>I&#039;d like to someday write a book about asking the right questions</description>
+	<lastBuildDate>Sun, 05 Jan 2014 14:52:15 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>DublinJS August meetup kata</title>
+		<link>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html</link>
+		<comments>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html#comments</comments>
+		<pubDate>Sun, 14 Aug 2011 15:26:03 +0000</pubDate>
+		<dc:creator>Dominykas</dc:creator>
+				<category><![CDATA[Webbie stuff]]></category>
+		<category><![CDATA[dublinjs]]></category>
+		<category><![CDATA[javascript]]></category>
+
+		<guid isPermaLink="false">http://www.dominykas.com/?p=141</guid>
+		<description><![CDATA[I&#8217;m doing a kata for this month&#8217;s meetup of Javascript Dublin group and my choice is Roman Numerals. It&#8217;s simple enough and it also demos some interesting transformations of the code during the whole TDD process (if you stick to the mantra of &#8220;write the simplest possible thing&#8221;). I found that I could also put [...]]]></description>
+			<content:encoded><![CDATA[<p>I&#8217;m doing a kata for <a href="http://www.meetup.com/Javascript-Dublin/events/27369271/">this month&#8217;s</a> meetup of <a href="https://groups.google.com/group/dublinjs">Javascript Dublin</a> group and my choice is <a href="http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals"><strong>Roman Numerals</strong></a>. It&#8217;s simple enough and it also demos some interesting transformations of the code during the whole TDD process (if you stick to the mantra of &#8220;write the simplest possible thing&#8221;). I found that I could also put some of the new ES5 features into practice: <code>Object.keys()</code>, <code>Array.prototype.forEach()</code> and <code>Array.prototype.reduce()</code>.</p>
+<p>The Coding Dojo page for this kata also has a <a href="http://vimeo.com/15104374">video of it performed in Ruby</a>. There&#8217;s also a link to a video of it in Excel, but as much as it sounds good, it&#8217;s just building a VB macro&#8230;</p>
+<p>You can find <a href="https://github.com/dymonaz/dublinjs">my code on GitHub</a>. I have also prepared a <a href="https://github.com/dymonaz/dublinjs/blob/master/roman_numbers.walkthrough.txt">walk through</a> on how I arrived at <a href="https://github.com/dymonaz/dublinjs/tree/master/20110814.roman_numbers">my solution</a> (txt is the new ppt!)</p>
+<p>The previous kata sessions used Jasmine &#8211; and it works just fine &#8211; but I chose to do things with YUI Test. If you feel like it &#8211; I prepared a <a href="https://github.com/dymonaz/dublinjs/tree/master/yui-test-harness">skeleton for the project</a>. Note that it loads YUI from Yahoo&#8217;s CDN, so make sure you&#8217;re online (or update the harness.html).</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.rss2.xml</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

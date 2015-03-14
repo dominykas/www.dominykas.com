@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dominykas.com &#187; accessibility</title>
+	<atom:link href="http://www.dominykas.com/tag/accessibility.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.dominykas.com</link>
+	<description>I&#039;d like to someday write a book about asking the right questions</description>
+	<lastBuildDate>Sun, 05 Jan 2014 14:52:15 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>javascript:void(0) must die</title>
+		<link>http://www.dominykas.com/2009/12/javascript-void-must-die.html</link>
+		<comments>http://www.dominykas.com/2009/12/javascript-void-must-die.html#comments</comments>
+		<pubDate>Wed, 02 Dec 2009 23:32:31 +0000</pubDate>
+		<dc:creator>Dominykas</dc:creator>
+				<category><![CDATA[Webbie stuff]]></category>
+		<category><![CDATA[accessibility]]></category>
+		<category><![CDATA[html]]></category>
+		<category><![CDATA[javascript]]></category>
+
+		<guid isPermaLink="false">http://www.dominykas.com/?p=8</guid>
+		<description><![CDATA[Pretty much two weeks ago I dropped my notes from FullFrontal 2009 onto developer&#8217;s forum at work. And one full colleague of mine enquired why did I say that &#8220;javascript:void(0) must die&#8221;. I didn&#8217;t really have a chance to follow it up until now (happy birthday, dear blog).
+It doesn&#8217;t do anything, it just sits there!
+Now, [...]]]></description>
+			<content:encoded><![CDATA[<p>Pretty much two weeks ago I dropped my notes from <a href="http://2009.full-frontal.org/">FullFrontal 2009</a> onto developer&#8217;s forum at work. And one full colleague of mine enquired why did I say that &#8220;<code>javascript:void(0)</code> must die&#8221;. I didn&#8217;t really have a chance to follow it up until now (happy birthday, dear blog).</p>
+<h2>It doesn&#8217;t do anything, <a title="Video: Electric Six - Broken Machine" href="http://www.youtube.com/watch?v=pjq3vQV6v-Y">it just sits there</a>!</h2>
+<p>Now, normally I&#8217;m not a complete standards freak (unlike the guys working on <a href="http://code.google.com/p/google-caja/">Caja</a>). But what does <code>&lt;a href="javascript:void(0)"&gt;</code> really mean? The answer is simple &#8211; <strong>nothing</strong>.</p>
+<p>First of, it&#8217;s a hyperlink to a resource, which should be accessed over Javascript &#8220;protocol&#8221;. Here&#8217;s the problem &#8211; I don&#8217;t really feel that &#8220;javascript&#8221; is a protocol. And it can&#8217;t really handle resources. But lets ignore that. What is the actual resource?</p>
+<p>The link tells &#8220;use javascript&#8221; to &#8220;retrieve&#8221;&#8230; <strong>void</strong>. Why would anyone in the world want to view void in their browser? If anyone ever wants to look at it &#8211; they&#8217;re much better off achieving that goal on YouTube&#8230;</p>
+<h2>Semantics apart &#8211; it&#8217;s not comprehensible</h2>
+<p>Lets suppose, you don&#8217;t really care about web standards and semantics. I&#8217;d probably agree with you &#8211; we&#8217;re quite far away from having a meaningful web (if ever). Still, having crap as the URL is no good &#8211; apparently, <strong>screen readers will read that URL</strong> out loud.</p>
+<p>Can you imagine anyone discussing this over a pint: &#8220;You know, I found this great site at <i>javascript colon void opening parenthesis zero closing parenthesis</i>&#8220;? That kind of URL would not make any sense to regular folks.</p>
+<h2>Accessibility is NOT about screen readers, though</h2>
+<p>Such a link kills browsing experience for sighted users too. Have you ever tried what happens when you <strong>middle-click the void link</strong>? Or right-click and then select &#8220;Open in new tab&#8221;? Here &#8211; <a href="javascript:void(0)" onclick="alert('Firefox and Opera open a background tab, Chrome and IE8 execute onclick JS upon middle click');">try it out</a> (mileage may vary if you use a recent browser).</p>
+<p>Exactly &#8211; you guessed it &#8211; <strong>nothing</strong> meaningful happens. Just as it should!</p>
+<h2>Solution 1: Use real URLs</h2>
+<p>There are several ways out of this. My favorite one is to provide a real URL. If you&#8217;re following progressive enhancement methodology in your work, you always want to provide alternative links to achieve (near full) functionality even when Javascript is disabled.</p>
+<p>This means, that instead of having a <code>&lt;a href="javascript:void(0)"&gt;Delete&lt;/a&gt;</code> and attaching <code>onclick</code> handler to it, popping out a confirm dialog and then making a background call using XHR, you provide a link to e.g. <code>/myResource?delete</code> which brings up a form, with a real <code>&lt;button&gt;</code>.</p>
+<p>The actual backend code doesn&#8217;t become that much trickier &#8211; you don&#8217;t really have to write up a new &#8220;delete&#8221; routine. By using a confirmation interstitial, you also provide a way to confirm the action, and you can still use a POST request, as this action has permanent effect.</p>
+<h2>Solution 2: don&#8217;t use anchor tag</h2>
+<p>The above solution doesn&#8217;t always work &#8211; if you have a really interactive application, you&#8217;re not always able to provide links. However, since you&#8217;re already using JS &#8211; why use the <code>&lt;a&gt;</code> tag where it doesn&#8217;t belong?</p>
+<p>I did hear some advice, to use <code>&lt;button&gt;</code> for clickable things, which are not really links. You should investigate that, but anyone who has tried to style buttons, knows that it can very easily become a major pain.</p>
+<p>Still, you can attach your <code>onclick</code> handlers on anything you want &#8211; <code>div</code>, <code>span</code> and so on. In such cases, you should also add <code>tabindex</code> to make elements focusable and make use of ARIA roles to provide guidelines on behaviour. It&#8217;s not really that hard, now, is it?</p>
+<p>The only really painful thing here is providing <code>:hover</code> and <code>:focus</code> styles on IE6. But IE6 should also die, together with <code>javascript:void(0)</code>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.dominykas.com/2009/12/javascript-void-must-die.rss2.xml</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

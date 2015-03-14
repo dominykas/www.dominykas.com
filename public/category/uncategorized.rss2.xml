@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dominykas.com &#187; Uncategorized</title>
+	<atom:link href="http://www.dominykas.com/category/uncategorized.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.dominykas.com</link>
+	<description>I&#039;d like to someday write a book about asking the right questions</description>
+	<lastBuildDate>Sun, 05 Jan 2014 14:52:15 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>Hello world!</title>
+		<link>http://www.dominykas.com/2009/12/hello-world.html</link>
+		<comments>http://www.dominykas.com/2009/12/hello-world.html#comments</comments>
+		<pubDate>Wed, 02 Dec 2009 21:28:24 +0000</pubDate>
+		<dc:creator>Dominykas</dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://www.dominykas.com/?p=1</guid>
+		<description><![CDATA[There is no long story. My blog in Lithuanian will have a second birthday in 5 days. Here&#8217;s my present to myself.
+
+I write, you read and comment
+???
+PROFIT!
+
+Oh, and yes, you&#8217;re right &#8211; now that I have a blog, I will not update it frequently.
+]]></description>
+			<content:encoded><![CDATA[<p>There is no long story. My <a href="http://www.d-b.lt/">blog in Lithuanian</a> will have a second birthday in 5 days. Here&#8217;s my present to myself.</p>
+<ol>
+<li>I write, you read and comment</li>
+<li>???</li>
+<li>PROFIT!</li>
+</ol>
+<p>Oh, and yes, you&#8217;re right &#8211; now that I have a blog, I will not update it frequently.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.dominykas.com/2009/12/hello-world.rss2.xml</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

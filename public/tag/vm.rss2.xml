@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>dominykas.com &#187; vm</title>
+	<atom:link href="http://www.dominykas.com/tag/vm.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.dominykas.com</link>
+	<description>I&#039;d like to someday write a book about asking the right questions</description>
+	<lastBuildDate>Sun, 05 Jan 2014 14:52:15 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+			<item>
+		<title>(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL</title>
+		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html</link>
+		<comments>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html#comments</comments>
+		<pubDate>Sun, 16 May 2010 22:42:46 +0000</pubDate>
+		<dc:creator>Dominykas</dc:creator>
+				<category><![CDATA[Geeky stuff]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[openvz]]></category>
+		<category><![CDATA[proxmox]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[virtualbox]]></category>
+		<category><![CDATA[vm]]></category>
+
+		<guid isPermaLink="false">http://www.dominykas.com/?p=108</guid>
+		<description><![CDATA[Positive start: my new Dell XPS 8100 is now ready for work. To achieve that I had to overcome a couple of puzzlers. They were mostly related to my weird requirements, which I guess are not the common set up path&#8230;
+The weird setup
+
+The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid [...]]]></description>
+			<content:encoded><![CDATA[<p>Positive start: my new Dell XPS 8100 is now ready for work. To achieve that I had to overcome a couple of puzzlers. They were mostly related to my weird requirements, which I guess are not the common set up path&#8230;</p>
+<h2>The weird setup</h2>
+<ul>
+<li>The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid Lynx. The reasoning is simple &#8211; 99% of things just work and I&#8217;m quite familiar with it. The active community plays a large part too.</li>
+<li><a href="http://www.virtualbox.org/">VirtualBox</a> as the main virtualizer. I&#8217;m already a bit familiar with it, and I like its small footprint and the fact that it is easy to setup. I also made a stupid mistake of activating my Windows 7 inside of it, before trying out other VM software. At the end of the day &#8211; with guest additions installed, it is absolutely amazing and I have no problems there. Seriously &#8211; <a href="http://twitter.com/dymonaz/status/13877378744">I can watch YouTube inside Win7 inside a VM</a> practically without glitches!</li>
+<li><a href="http://pve.proxmox.com/wiki/Main_Page">Proxmox Virtual Environment</a> inside the aforementioned Virtualbox. Now, some might say I&#8217;m crazy to run a VM inside a VM, but using <a href="http://pve.proxmox.com/wiki/Container_and_Full_Virtualization">containers is far more efficient</a> (especially due to low RAM usage) than running real VMs. Considering OpenVZ was not included in Lucid, and LXC is by far not ready (read: I don&#8217;t have enough time to learn everything without proper documentation), Proxmox was an easy choice to make. I&#8217;m already using it in production and I&#8217;m really happy with how easy it is to setup and maintain.</li>
+<li>Ubuntu Lucid again, to host services (Apache, MySQL, couchdb, etc) inside OpenVZ containers. I absolutely love the <a href="http://wiki.openvz.org/Download/template/precreated">minimal OpenVZ templates</a>. The only reason I&#8217;m not going for Debian here is the fact that the releases don&#8217;t happen frequently enough for my liking. I may reconsider this down the road &#8211; but for now &#8211; Ubuntu works out for me better.</li>
+</ul>
+<h2>Problem 1. Proxmox didn&#8217;t like being inside VirtualBox</h2>
+<p>I downloaded the &#8220;bare metal installer&#8221; and tried to start it in a VM. All went well until the first reboot, and then it would just hang after detecting the (virtual) hard disks. Took me a couple of hours of scratching my head, until I installed pure Debian inside VirtualBox. Strangely, during installation, the hard drive was appearing as <code>hda</code>, but after finishing, would all of a sudden change to <code>sda</code>, which obviously made things go really sour.</p>
+<p><strong>Solution:</strong> change the IDE controller (VM properties -&gt; Storage) from the default PIIX4 to ICH6. I have no clue what all of this means, but the resulting VM now boots fine.</p>
+<h2>Problem 2. <code>fsck</code> during every boot due to &#8220;last mount time in the future&#8221;</h2>
+<p>This one is simple &#8211; the VM has no access to the hardware clock, which by default is expected to be set to UTC, so your true time gets double-adjusted (once in the host, once in the guest). To fix edit <code>/etc/default/rcS</code> and <a href="http://forums.virtualbox.org/viewtopic.php?f=3&#038;t=27334">make sure <code>UTC=no</code></a>.</p>
+<h2>Problem 3. MySQL won&#8217;t start inside Lucid inside OpenVZ</h2>
+<p>Considering that Lucid doesn&#8217;t really support being the host, or the guest of OpenVZ, this comes as no surprise and the bug is marked as &#8220;<a href="https://bugs.launchpad.net/ubuntu/+source/mysql-dfsg-5.1/+bug/566736">Won&#8217;t fix</a>&#8220;. Luckily, there&#8217;s a smart guy, <a href="http://blog.bodhizazen.net/linux/ubuntu-10-04-openvz-templates/">who has a workaround</a>. Solution: edit <code>/etc/init/mysql.conf</code> to have it <code>start on runlevel [2345]</code>, instead of the default method, which depends on networking.</p>
+<p>I think, I now have all the ingredients to start working on the <em>???</em> part!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

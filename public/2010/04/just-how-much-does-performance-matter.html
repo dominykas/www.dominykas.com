@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+
+	<title>
+		 &raquo; Just how much does performance matter? - dominykas.com			</title>
+
+	<meta name="generator" content="WordPress 2.9.2" /> <!-- leave this for stats -->
+
+	<link rel="stylesheet" href="http://www.dominykas.com/wp-content/themes/dominykas.com.5/style.css" type="text/css" />
+	<link rel="pingback" href="http://www.dominykas.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; Feed" href="http://www.dominykas.com/index.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; Comments Feed" href="http://www.dominykas.com/comments.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; Just how much does performance matter? Comments Feed" href="http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.rss2.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.dominykas.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.dominykas.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='dominykas.com' href='http://www.dominykas.com' />
+<link rel='start' title='Hello world!' href='http://www.dominykas.com/2009/12/hello-world.html' />
+<link rel='prev' title='Benchmark: HTML outlining/TOC scripts' href='http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html' />
+<link rel='next' title='(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL' href='http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html' />
+
+	<link rel="openid.server" href="http://openid.claimid.com/server" />
+	<link rel="openid.delegate" href="http://openid.claimid.com/dominykas" />
+
+<!--[if IE]>
+<script src="http://www.dominykas.com/wp-content/themes/dominykas.com.5/images/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body><div id="page">
+
+<header role="banner" id="banner">
+	<hgroup>
+		<h1><a href="http://www.dominykas.com/">dominykas.com</a></h1>
+		<h2>I&#039;d like to someday write a book about asking the right questions</h2>
+	</hgroup>
+</header>
+
+<nav id="sidebar">
+
+			<section id="recent-posts-2" class="widget widget_recent_entries">		<h1>Recent Posts</h1>		<ul>
+				<li><a href="http://www.dominykas.com/2014/01/but-its-easy.html" title="But it&#8217;s easy&#8230;">But it&#8217;s easy&#8230; </a></li>
+				<li><a href="http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html" title="OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites">OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites </a></li>
+				<li><a href="http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html" title="DublinJS August meetup kata">DublinJS August meetup kata </a></li>
+				<li><a href="http://www.dominykas.com/2010/11/opera-extensions-messaging-example.html" title="Opera Extensions: messaging example">Opera Extensions: messaging example </a></li>
+				<li><a href="http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" title="(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL </a></li>
+				<li><a href="http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" title="Just how much does performance matter?">Just how much does performance matter? </a></li>
+				<li><a href="http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" title="Benchmark: HTML outlining/TOC scripts">Benchmark: HTML outlining/TOC scripts </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" title="ASP.NET MVC generates invalid ClientIDs">ASP.NET MVC generates invalid ClientIDs </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/javascript-void-must-die.html" title="javascript:void(0) must die">javascript:void(0) must die </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/hello-world.html" title="Hello world!">Hello world! </a></li>
+				</ul>
+		</section><section id="linkcat-8" class="widget widget_links"><h1>My other stuff</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://code.google.com/p/h5o/" rel="me">HTML5 outliner in JS</a></li>
+<li><a href="http://www.d-b.lt/" rel="me">Lietuviškai</a></li>
+<li><a href="http://code.dominykas.com/" rel="me">Some JS/CSS/PHP code</a></li>
+<li><a href="http://twitter.com/dymonaz" rel="me">Twitter</a></li>
+
+	</ul>
+</section>
+<section id="text-4" class="widget widget_text">			<div class="textwidget"><div style="text-align:center;"><a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array' title='JS Array index'><img src='http://static.jsconf.us/promotejsv.gif' height='280' width='160' alt='JS Array index'/></a></div></div>
+		</section><section id="linkcat-2" class="widget widget_links"><h1>Blogroll</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://foobarpig.com/" rel="friend met">foobarpig.com</a></li>
+
+	</ul>
+</section>
+<section id="meta-3" class="widget widget_meta"><h1>Meta</h1>			<ul>
+						<li><a href="http://www.dominykas.com/wp-login.php">Log in</a></li>
+			<li><a href="http://www.dominykas.com/index.rss2.xml" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.dominykas.com/comments.rss2.xml" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</section><section id="text-3" class="widget widget_text">			<div class="textwidget"><p style="text-align:center;"><a href="http://www.zend.com/store/education/certification/authenticate.php?ClientCandidateID=ZEND001268&amp;RegistrationID=220103242" title="Verify authenticity"><img src="http://dominykas.net/images/php5_zce_logo.gif" alt="Zend Certified Engineer (PHP5)" border="0" /></a></p></div>
+		</section>
+</nav>
+<section id="content" role="main">
+
+	
+	    <article class="post singular" id="post-82">
+	<header class="clearfix">
+		<h1><a href="http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" rel="bookmark">Just how much does performance matter?</a></h1>
+		<ul>
+			<li><time datetime="2010-04-07T21:40:57+00:00">April 7, 2010</time></li>
+					</ul>
+	</header>
+	
+	<div class="postbody">
+	<p>I have recently moved my dedicated server to a new provider. I mostly did this for pricing reasons, but there&#8217;s also the benefit of network speed, as most of my visitors and now &#8211; the server itself &#8211; are in Europe. This move, coupled with a few optimizations, has opened my eyes towards some data &#8211; the impact of page load time on &#8220;pages per visit&#8221; metric. While the general theory behind the relationship of the two is clear to everyone, the actual numbers did shock me.<br />
+<span id="more-82"></span><br />
+There is a small community that I am hosting &#8211; it has roughly 2000 members, who are pretty active. As the community does not accept any new members, the results reflect just the <strong>engagement based on page load speed</strong>. I did not really take measurements, and <a href="http://www.google.com/webmasters/">Webmaster Central</a> page speed lab tool is unable to provide the numbers due to the closed nature of the community, I estimate that the average full page <strong>load time decreased from some 8-12s to 3-5s</strong>. The effect on <strong>pageviews? PLUS THIRTY FIVE PERCENT</strong>. There is no change in the number of visits (sessions), but the number of pageviews is up by a third <strong>instantly</strong>. Check out the graph:</p>
+<p style="text-align:center;"><a href="http://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv.png"><img src="http://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv-300x72.png" alt="" title="page-speed-improves-ppv" width="300" height="72" class="aligncenter size-medium wp-image-83"/></a></p>
+<p>There is one more statistically significant website that I had a chance to test. This time, the page load time decreased from 5s to 1.5s. Yet again &#8211; the pages per visit number is up by 12%. Now, here&#8217;s the best part of it all &#8211; the two websites are somewhat related (you may call them &#8220;affiliates&#8221; if you&#8217;d like). Since both of them had substantial speed improvements &#8211; the referral rate from one to the other has actually increased&#8230; <strong>threefold</strong>.</p>
+<p>While I must say, that the actual time on site has not increased as much, the pageview count is what matters a lot if you&#8217;re participating in <abbr title="Pay per click">PPC</abbr>. Funny thing, is that if you <em>are</em> actually participating in <a href="http://www.stevesouders.com/blog/2010/03/29/p3pc-google-adsense/">Google AdSense &#8211; that will be the bottleneck</a>.</p>
+<p>At the end of the day &#8211; the overall user experience improvement is quite immeasurable and the pleasure of having your visitors tell you &#8220;wow this is fast&#8221; is indescribable.</p>
+<p>Worried about premature optimization? Well, it still holds true that you should only optimize where it hurts.</p>
+	</div>
+
+	<footer>
+		<dl>
+			<dt>Category:</dt>
+			<dd><a href="http://www.dominykas.com/category/webbie-stuff.html" title="View all posts in Webbie stuff" rel="category tag">Webbie stuff</a></dd>
+
+			<dt>Tags:</dt> <dd><ul><li><a href="http://www.dominykas.com/tag/analytics.html" rel="tag">analytics</a></li><li><a href="http://www.dominykas.com/tag/performance.html" rel="tag">performance</a></li></ul></dd>
+					</dl>
+	</footer>
+	
+			
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<section id="commentform">
+	<h1>Leave a Reply</h1>
+
+	
+		<form action="http://www.dominykas.com/wp-comments-post.php" method="post">
+
+		
+			<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+			<label for="author"><small>Name (required)</small></label></p>
+
+			<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+			<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+			<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+			<label for="url"><small>Website</small></label></p>
+
+		
+		<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+		<p><textarea name="comment" id="comment" cols="80" rows="10" tabindex="4"></textarea></p>
+
+		<p><button type="submit">Submit Comment</button>
+		<input type="hidden" name="comment_post_ID" value="82" />
+		</p>
+		
+		</form>
+
+	</section>
+	</article>
+        
+	
+</section>
+
+<footer role="contentinfo" id="contentinfo">
+	<p>&copy; 2009, Dominykas Blyžė.</p>
+	<p>dominykas.com is proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+</footer>
+
+
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1761312-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

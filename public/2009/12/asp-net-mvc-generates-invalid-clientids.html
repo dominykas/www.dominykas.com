@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+
+	<title>
+		 &raquo; ASP.NET MVC generates invalid ClientIDs - dominykas.com			</title>
+
+	<meta name="generator" content="WordPress 2.9.2" /> <!-- leave this for stats -->
+
+	<link rel="stylesheet" href="http://www.dominykas.com/wp-content/themes/dominykas.com.5/style.css" type="text/css" />
+	<link rel="pingback" href="http://www.dominykas.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; Feed" href="http://www.dominykas.com/index.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; Comments Feed" href="http://www.dominykas.com/comments.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="dominykas.com &raquo; ASP.NET MVC generates invalid ClientIDs Comments Feed" href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.rss2.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.dominykas.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.dominykas.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='dominykas.com' href='http://www.dominykas.com' />
+<link rel='start' title='Hello world!' href='http://www.dominykas.com/2009/12/hello-world.html' />
+<link rel='prev' title='javascript:void(0) must die' href='http://www.dominykas.com/2009/12/javascript-void-must-die.html' />
+<link rel='next' title='Benchmark: HTML outlining/TOC scripts' href='http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html' />
+
+	<link rel="openid.server" href="http://openid.claimid.com/server" />
+	<link rel="openid.delegate" href="http://openid.claimid.com/dominykas" />
+
+<!--[if IE]>
+<script src="http://www.dominykas.com/wp-content/themes/dominykas.com.5/images/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body><div id="page">
+
+<header role="banner" id="banner">
+	<hgroup>
+		<h1><a href="http://www.dominykas.com/">dominykas.com</a></h1>
+		<h2>I&#039;d like to someday write a book about asking the right questions</h2>
+	</hgroup>
+</header>
+
+<nav id="sidebar">
+
+			<section id="recent-posts-2" class="widget widget_recent_entries">		<h1>Recent Posts</h1>		<ul>
+				<li><a href="http://www.dominykas.com/2014/01/but-its-easy.html" title="But it&#8217;s easy&#8230;">But it&#8217;s easy&#8230; </a></li>
+				<li><a href="http://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html" title="OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites">OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites </a></li>
+				<li><a href="http://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html" title="DublinJS August meetup kata">DublinJS August meetup kata </a></li>
+				<li><a href="http://www.dominykas.com/2010/11/opera-extensions-messaging-example.html" title="Opera Extensions: messaging example">Opera Extensions: messaging example </a></li>
+				<li><a href="http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" title="(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL </a></li>
+				<li><a href="http://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" title="Just how much does performance matter?">Just how much does performance matter? </a></li>
+				<li><a href="http://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" title="Benchmark: HTML outlining/TOC scripts">Benchmark: HTML outlining/TOC scripts </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" title="ASP.NET MVC generates invalid ClientIDs">ASP.NET MVC generates invalid ClientIDs </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/javascript-void-must-die.html" title="javascript:void(0) must die">javascript:void(0) must die </a></li>
+				<li><a href="http://www.dominykas.com/2009/12/hello-world.html" title="Hello world!">Hello world! </a></li>
+				</ul>
+		</section><section id="linkcat-8" class="widget widget_links"><h1>My other stuff</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://code.google.com/p/h5o/" rel="me">HTML5 outliner in JS</a></li>
+<li><a href="http://www.d-b.lt/" rel="me">Lietuviškai</a></li>
+<li><a href="http://code.dominykas.com/" rel="me">Some JS/CSS/PHP code</a></li>
+<li><a href="http://twitter.com/dymonaz" rel="me">Twitter</a></li>
+
+	</ul>
+</section>
+<section id="text-4" class="widget widget_text">			<div class="textwidget"><div style="text-align:center;"><a href='https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Array' title='JS Array index'><img src='http://static.jsconf.us/promotejsv.gif' height='280' width='160' alt='JS Array index'/></a></div></div>
+		</section><section id="linkcat-2" class="widget widget_links"><h1>Blogroll</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="http://foobarpig.com/" rel="friend met">foobarpig.com</a></li>
+
+	</ul>
+</section>
+<section id="meta-3" class="widget widget_meta"><h1>Meta</h1>			<ul>
+						<li><a href="http://www.dominykas.com/wp-login.php">Log in</a></li>
+			<li><a href="http://www.dominykas.com/index.rss2.xml" title="Syndicate this site using RSS 2.0">Entries <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://www.dominykas.com/comments.rss2.xml" title="The latest comments to all posts in RSS">Comments <abbr title="Really Simple Syndication">RSS</abbr></a></li>
+			<li><a href="http://wordpress.org/" title="Powered by WordPress, state-of-the-art semantic personal publishing platform.">WordPress.org</a></li>
+						</ul>
+</section><section id="text-3" class="widget widget_text">			<div class="textwidget"><p style="text-align:center;"><a href="http://www.zend.com/store/education/certification/authenticate.php?ClientCandidateID=ZEND001268&amp;RegistrationID=220103242" title="Verify authenticity"><img src="http://dominykas.net/images/php5_zce_logo.gif" alt="Zend Certified Engineer (PHP5)" border="0" /></a></p></div>
+		</section>
+</nav>
+<section id="content" role="main">
+
+	
+	    <article class="post singular" id="post-40">
+	<header class="clearfix">
+		<h1><a href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" rel="bookmark">ASP.NET MVC generates invalid ClientIDs</a></h1>
+		<ul>
+			<li><time datetime="2009-12-19T16:03:05+00:00">December 19, 2009</time></li>
+					</ul>
+	</header>
+	
+	<div class="postbody">
+	<p>This week I had a joy of spending several hours trying to solve and intermitently happening bug. In short, some 2 times out of 3 the <a href="http://developer.yahoo.com/yui/selector/">YUI selector</a> utility failed to lookup elements in an XHR loaded HTML fragment. After digging quite deep into the YUI code, I found that it was actually the fault of the way <a href="http://www.asp.net/mvc/">ASP.NET MVC</a> treats partial views. </p>
+<h2>Summary</h2>
+<ul>
+<li>ASP.NET MVC allows use of ASCX as &#8220;partial views&#8221;</li>
+<li>It correctly assumes, that uniqueness of ClientID should be preserved</li>
+<li>It incorrectly does not prepend an alpha-character to automatically generated GUID based IDs</li>
+<li>User agents and selector libraries may correctly ignore such invalid IDs</li>
+<li><a href="http://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html#solution-20091219">Solution: override <code>ViewUserControl.UniqueID</code></a></li>
+</ul>
+<p><span id="more-40"></span></p>
+<h2>The problem with ASP.NET MVC</h2>
+<p>ASP.NET MVC allows you to return an ASCX control as a view. This allows using a very nice pattern, of loading only parts of the page using XHR, while still being able to use the same controls when the full page is generated.</p>
+<p>If you&#8217;ve used ASP.NET enough, then <code>ctl00_something_something</code> must be familliar &#8211; it&#8217;s an automatically generated value for HTML <code>id</code> attributes. ASP.NET does a pretty good job in ensuring that the requirement of unique IDs is followed, however, that only really works for fully generated pages.</p>
+<p>If you are returning a partial view to be injected into some page, the context has already been lost &#8211; i.e. the server no longer knows anything about the original counter of controls and unique IDs. To circumvent this problem, MVC uses a GUID as a prefix for the ClientID generation. While, this is an absolutely correct approach, which basically means that ID collision is practically impossible, when you inject your partials into the DOM, the actual implementation has a small bug &#8211; the <a href="http://www.w3.org/TR/html401/types.html#type-name">HTML spec says</a>:</p>
+<blockquote><p>ID and NAME tokens must begin with a letter ([A-Za-z]) and may be followed by any number of letters, digits ([0-9]), hyphens (&#8220;-&#8221;), underscores (&#8220;_&#8221;), colons (&#8220;:&#8221;), and periods (&#8220;.&#8221;).</p>
+</blockquote>
+<p>However, as we all know, the GUIDs <em>may</em> start with a number. In fact, they <em>do</em> start with a number much more often than they do with a letter. Which means that your partial views start having situations where <code>id="<strong style="text-decoration:underline;">1</strong>1fa1658-d453-42e0-86f1-e640c476f7ac_ctl02_something_something"</code>. Naturally, if your client side framework is standards aware, it may ignore the <code>id</code> attribute altogether and fail miserably.</p>
+<h2>The YUI (non)part of the problem</h2>
+<p>In general, the advice is to not use ID attributes as a base for your operations &#8211; be it selecting elements, or attaching events (use classes and wiser selectors instead). In our case, though, we still have a lot of legacy code, which does not follow this approach. There is also the case of Visual Studio sometimes inserting IDs automatically. Still, it doesn&#8217;t matter how IDs end up there &#8211; if you&#8217;re using YUI selector library, you will get some autogenerated IDs anyways.</p>
+<p>The reasoning for that, is that querying the DOM using IDs is very cheap with <code>getElementById()</code>. If you&#8217;re supplying a parent element, from which your query should be run, YUI will either re-use the ID that already exists, or will create a new (unique) one for the purposes of expanding your query, i.e. <code>YAHOO.util.Selector.query(".myClass", parentElement)</code> will become <code>"DIV#<i>parentId</i> .myClass"</code> which in turn will be expanded into <code>"DIV[id=<i>parentId</i>] [class=myClass]"</code>, which is still the very same selector, but is easier to parse and process.</p>
+<p>Now, the only problem is the regex (<code>'\\#(-?[_a-z]+[-\\w]*)': '[id=$1]'</code>) which does the expanding of ID and class selectors into the attribute based selectors &#8211; it does follow the standard, and only accepts valid values, which means that if your ID starts with a number &#8211; it will not be expanded and the whole query will fail.</p>
+<h2 id="solution-20091219">Solution</h2>
+<p>While some may say, that YUI should be updated to be more lenient on such errors, I say that there should be no place on the web for invalid code. And there&#8217;s also a much simpler solution to the problem &#8211; override default behaviour of <code>ViewUserControl.UniqueID</code>:</p>
+<pre>public class MyViewUserControl : ViewUserControl
+{
+	public override string UniqueID
+	{
+		get
+		{
+			var retval = base.UniqueID;
+			if(!string.IsNullOrEmpty(retval)
+				&#038;&#038; char.IsDigit(retval[0]))
+			{
+				retval = "c" + retval;
+			}
+			return retval;
+		}
+	}
+}
+</pre>
+<p>Now&#8230; where do I report bugs in ASP.NET MVC?..</p>
+	</div>
+
+	<footer>
+		<dl>
+			<dt>Category:</dt>
+			<dd><a href="http://www.dominykas.com/category/webbie-stuff.html" title="View all posts in Webbie stuff" rel="category tag">Webbie stuff</a></dd>
+
+			<dt>Tags:</dt> <dd><ul><li><a href="http://www.dominykas.com/tag/asp-net-mvc.html" rel="tag">asp.net mvc</a></li><li><a href="http://www.dominykas.com/tag/html.html" rel="tag">html</a></li><li><a href="http://www.dominykas.com/tag/yui.html" rel="tag">yui</a></li></ul></dd>
+					</dl>
+	</footer>
+	
+			
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are open, but there are no comments. -->
+
+	 
+
+<section id="commentform">
+	<h1>Leave a Reply</h1>
+
+	
+		<form action="http://www.dominykas.com/wp-comments-post.php" method="post">
+
+		
+			<p><input type="text" name="author" id="author" value="" size="22" tabindex="1" />
+			<label for="author"><small>Name (required)</small></label></p>
+
+			<p><input type="text" name="email" id="email" value="" size="22" tabindex="2" />
+			<label for="email"><small>Mail (will not be published) (required)</small></label></p>
+
+			<p><input type="text" name="url" id="url" value="" size="22" tabindex="3" />
+			<label for="url"><small>Website</small></label></p>
+
+		
+		<!--<p><small><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></small></p>-->
+
+		<p><textarea name="comment" id="comment" cols="80" rows="10" tabindex="4"></textarea></p>
+
+		<p><button type="submit">Submit Comment</button>
+		<input type="hidden" name="comment_post_ID" value="40" />
+		</p>
+		
+		</form>
+
+	</section>
+	</article>
+        
+	
+</section>
+
+<footer role="contentinfo" id="contentinfo">
+	<p>&copy; 2009, Dominykas Blyžė.</p>
+	<p>dominykas.com is proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+</footer>
+
+
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1761312-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

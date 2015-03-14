@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL</title>
+	<atom:link href="http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml" rel="self" type="application/rss+xml" />
+	<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html</link>
+	<description>I&#039;d like to someday write a book about asking the right questions</description>
+	<lastBuildDate>Sat, 15 Dec 2012 01:43:46 +0000</lastBuildDate>
+	<generator>http://wordpress.org/?v=2.9.2</generator>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<item>
+		<title>By: Abdoulaye Siby</title>
+		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-7756</link>
+		<dc:creator>Abdoulaye Siby</dc:creator>
+		<pubDate>Tue, 09 Aug 2011 01:58:42 +0000</pubDate>
+		<guid isPermaLink="false">http://www.dominykas.com/?p=108#comment-7756</guid>
+		<description>Interesting. I thought I was the first one to have this idea. To good this is that at least I know now that what I was doing is not that crazy at all. I also have Windows 7 and Proxmox running on VirtualBox. It works flawlessly and take far less resources when using ONLY OpenVZ containers.
+
+I have an annoyance that I am experiencing though ... My home network is using 192.168.2.x ... and Proxmox is using 192.168.2.15 (static IP configured inside Proxmox)
+
+Unfortunately, as soon as I am on another network, the IP 192.168.2.15 will be unavailable. Maybe it&#039;s just a matter of create an alias for the interface and use that IP instead of the one that matches the current network.
+
+Cheers.</description>
+		<content:encoded><![CDATA[<p>Interesting. I thought I was the first one to have this idea. To good this is that at least I know now that what I was doing is not that crazy at all. I also have Windows 7 and Proxmox running on VirtualBox. It works flawlessly and take far less resources when using ONLY OpenVZ containers.</p>
+<p>I have an annoyance that I am experiencing though &#8230; My home network is using 192.168.2.x &#8230; and Proxmox is using 192.168.2.15 (static IP configured inside Proxmox)</p>
+<p>Unfortunately, as soon as I am on another network, the IP 192.168.2.15 will be unavailable. Maybe it&#8217;s just a matter of create an alias for the interface and use that IP instead of the one that matches the current network.</p>
+<p>Cheers.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: David Sugar</title>
+		<link>http://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html/comment-page-1#comment-1069</link>
+		<dc:creator>David Sugar</dc:creator>
+		<pubDate>Mon, 13 Sep 2010 21:05:39 +0000</pubDate>
+		<guid isPermaLink="false">http://www.dominykas.com/?p=108#comment-1069</guid>
+		<description>The strange thing is your weird setup actually makes perfect sense to me, at least for setting up testing appliances.  I was thinking of doing a sipwitch testing appliance and a backup/test site for my main public site, which uses mediawiki, and maybe something for something else.  None of these really require a full vm by themselves (which seems a huge waste of resources), I did not wish to mix them together in testing, nor did I wish to dedicate a box just for things that have rather transient use.  Disk space and memory I do have plenty of on my main dev box, I too have become rather familiar with virtualbox, and I also like it&#039;s small footprint and simplicity.
+
+It&#039;s possible with the newer kernel in proxmox 1.6 (it now uses 2.6.32) will remap /dev/sda correctly from first boot, though I think I may try the virtualbox sata if it has better performance.</description>
+		<content:encoded><![CDATA[<p>The strange thing is your weird setup actually makes perfect sense to me, at least for setting up testing appliances.  I was thinking of doing a sipwitch testing appliance and a backup/test site for my main public site, which uses mediawiki, and maybe something for something else.  None of these really require a full vm by themselves (which seems a huge waste of resources), I did not wish to mix them together in testing, nor did I wish to dedicate a box just for things that have rather transient use.  Disk space and memory I do have plenty of on my main dev box, I too have become rather familiar with virtualbox, and I also like it&#8217;s small footprint and simplicity.</p>
+<p>It&#8217;s possible with the newer kernel in proxmox 1.6 (it now uses 2.6.32) will remap /dev/sda correctly from first boot, though I think I may try the virtualbox sata if it has better performance.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
