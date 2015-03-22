@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dominykas/www.dominykas.com/issues"
   },
-  "homepage": "https://www.dominykas.com/"
+  "homepage": "https://www.dominykas.com/",
+  "devDependencies": {
+    "harp": "0.15.x"
+  }
 }
