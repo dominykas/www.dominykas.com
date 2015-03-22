@@ -7,9 +7,7 @@
       "complexity",
       "overengineering",
       "simplicity",
-      "underengineering"
-    ],
-    "categories": [
+      "underengineering",
       "geeky-stuff"
     ],
     "published": true
@@ -19,9 +17,7 @@
     "title": "OMG OMG Nielsen is wrong, let’s all, like, build responsive sites",
     "date": "2012-04-12T13:42:53+00:00",
     "tags": [
-      "responsive-design"
-    ],
-    "categories": [
+      "responsive-design",
       "webbie-stuff"
     ],
     "published": true
@@ -32,9 +28,7 @@
     "date": "2011-08-14T16:26:03+00:00",
     "tags": [
       "dublinjs",
-      "javascript"
-    ],
-    "categories": [
+      "javascript",
       "webbie-stuff"
     ],
     "published": true
@@ -46,9 +40,7 @@
     "tags": [
       "extensions",
       "javascript",
-      "opera"
-    ],
-    "categories": [
+      "opera",
       "webbie-stuff"
     ],
     "published": true
@@ -63,9 +55,7 @@
       "proxmox",
       "ubuntu",
       "virtualbox",
-      "vm"
-    ],
-    "categories": [
+      "vm",
       "geeky-stuff"
     ],
     "published": true
@@ -76,9 +66,7 @@
     "date": "2010-04-07T21:40:57+00:00",
     "tags": [
       "analytics",
-      "performance"
-    ],
-    "categories": [
+      "performance",
       "webbie-stuff"
     ],
     "published": true
@@ -90,9 +78,7 @@
     "tags": [
       "benchmark",
       "html",
-      "javascript"
-    ],
-    "categories": [
+      "javascript",
       "webbie-stuff"
     ],
     "published": true
@@ -104,9 +90,7 @@
     "tags": [
       "asp-net-mvc",
       "html",
-      "yui"
-    ],
-    "categories": [
+      "yui",
       "webbie-stuff"
     ],
     "published": true
@@ -118,9 +102,7 @@
     "tags": [
       "accessibility",
       "html",
-      "javascript"
-    ],
-    "categories": [
+      "javascript",
       "webbie-stuff"
     ],
     "published": true
@@ -129,8 +111,7 @@
     "id": "2009/12/hello-world",
     "title": "Hello world!",
     "date": "2009-12-02T16:28:24+00:00",
-    "tags": [],
-    "categories": [
+    "tags": [
       "uncategorized"
     ],
     "published": true
