@@ -5,6 +5,8 @@
   "description": "Asking some questions, looping some events: Dominykas Blyžė has a blog",
   "main": "index.js",
   "scripts": {
+    "start": "harp server src",
+    "compile": "harp compile src public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

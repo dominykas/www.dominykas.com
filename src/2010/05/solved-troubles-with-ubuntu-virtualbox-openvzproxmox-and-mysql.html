@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+
+	<title>
+		 &raquo; (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL - Asking some questions, looping some events			</title>
+
+	<meta name="generator" content="WordPress 2.9.2" /> <!-- leave this for stats -->
+
+	<link rel="stylesheet" href="https://www.dominykas.com/wp-content/themes/dominykas.com.5/style.css" type="text/css" />
+	<link rel="pingback" href="https://www.dominykas.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Feed" href="https://www.dominykas.com/index.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Comments Feed" href="https://www.dominykas.com/comments.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL Comments Feed" href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dominykas.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dominykas.com/wp-includes/wlwmanifest.xml" />
+<link rel='index' title='Asking some questions, looping some events' href='https://www.dominykas.com' />
+<link rel='start' title='Hello world!' href='https://www.dominykas.com/2009/12/hello-world.html' />
+<link rel='prev' title='Just how much does performance matter?' href='https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html' />
+<link rel='next' title='Opera Extensions: messaging example' href='https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html' />
+
+	<link rel="openid.server" href="http://openid.claimid.com/server" />
+	<link rel="openid.delegate" href="http://openid.claimid.com/dominykas" />
+
+<!--[if IE]>
+<script src="https://www.dominykas.com/wp-content/themes/dominykas.com.5/images/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body><div id="page">
+
+<header role="banner" id="banner">
+	<hgroup>
+		<h1><a href="https://www.dominykas.com/">Asking some questions, looping some events</a></h1>
+		<h2>Dominykas Blyžė has a blog</h2>
+	</hgroup>
+</header>
+
+<nav id="sidebar">
+
+			<section id="recent-posts-2" class="widget widget_recent_entries">		<h1>Recent Posts</h1>		<ul>
+				<li><a href="https://www.dominykas.com/2014/01/but-its-easy.html" title="But it&#8217;s easy&#8230;">But it&#8217;s easy&#8230; </a></li>
+				<li><a href="https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html" title="OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites">OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites </a></li>
+				<li><a href="https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html" title="DublinJS August meetup kata">DublinJS August meetup kata </a></li>
+				<li><a href="https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html" title="Opera Extensions: messaging example">Opera Extensions: messaging example </a></li>
+				<li><a href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" title="(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL </a></li>
+				<li><a href="https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" title="Just how much does performance matter?">Just how much does performance matter? </a></li>
+				<li><a href="https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" title="Benchmark: HTML outlining/TOC scripts">Benchmark: HTML outlining/TOC scripts </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" title="ASP.NET MVC generates invalid ClientIDs">ASP.NET MVC generates invalid ClientIDs </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/javascript-void-must-die.html" title="javascript:void(0) must die">javascript:void(0) must die </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/hello-world.html" title="Hello world!">Hello world! </a></li>
+				</ul>
+		</section><section id="linkcat-8" class="widget widget_links"><h1>My other stuff</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="https://github.com/h5o" rel="me">HTML5 outliner in JS</a></li>
+<li><a href="http://www.d-b.lt/" rel="me">Lietuviškai</a></li>
+<li><a href="http://code.dominykas.com/" rel="me">Some JS/CSS/PHP code</a></li>
+<li><a href="http://twitter.com/dymonaz" rel="me">Twitter</a></li>
+
+	</ul>
+</section>
+
+
+</nav>
+<section id="content" role="main">
+
+
+	    <article class="post singular" id="post-108">
+	<header class="clearfix">
+		<h1><a href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" rel="bookmark">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL</a></h1>
+		<ul>
+			<li><time datetime="2010-05-16T23:42:46+00:00">May 16, 2010</time></li>
+					</ul>
+	</header>
+
+	<div class="postbody">
+	<p>Positive start: my new Dell XPS 8100 is now ready for work. To achieve that I had to overcome a couple of puzzlers. They were mostly related to my weird requirements, which I guess are not the common set up path&#8230;<br />
+<span id="more-108"></span></p>
+<h2>The weird setup</h2>
+<ul>
+<li>The choice of desktop OS is sort of trivial &#8211; Ubuntu 10.04 Lucid Lynx. The reasoning is simple &#8211; 99% of things just work and I&#8217;m quite familiar with it. The active community plays a large part too.</li>
+<li><a href="http://www.virtualbox.org/">VirtualBox</a> as the main virtualizer. I&#8217;m already a bit familiar with it, and I like its small footprint and the fact that it is easy to setup. I also made a stupid mistake of activating my Windows 7 inside of it, before trying out other VM software. At the end of the day &#8211; with guest additions installed, it is absolutely amazing and I have no problems there. Seriously &#8211; <a href="http://twitter.com/dymonaz/status/13877378744">I can watch YouTube inside Win7 inside a VM</a> practically without glitches!</li>
+<li><a href="http://pve.proxmox.com/wiki/Main_Page">Proxmox Virtual Environment</a> inside the aforementioned Virtualbox. Now, some might say I&#8217;m crazy to run a VM inside a VM, but using <a href="http://pve.proxmox.com/wiki/Container_and_Full_Virtualization">containers is far more efficient</a> (especially due to low RAM usage) than running real VMs. Considering OpenVZ was not included in Lucid, and LXC is by far not ready (read: I don&#8217;t have enough time to learn everything without proper documentation), Proxmox was an easy choice to make. I&#8217;m already using it in production and I&#8217;m really happy with how easy it is to setup and maintain.</li>
+<li>Ubuntu Lucid again, to host services (Apache, MySQL, couchdb, etc) inside OpenVZ containers. I absolutely love the <a href="http://wiki.openvz.org/Download/template/precreated">minimal OpenVZ templates</a>. The only reason I&#8217;m not going for Debian here is the fact that the releases don&#8217;t happen frequently enough for my liking. I may reconsider this down the road &#8211; but for now &#8211; Ubuntu works out for me better.</li>
+</ul>
+<h2>Problem 1. Proxmox didn&#8217;t like being inside VirtualBox</h2>
+<p>I downloaded the &#8220;bare metal installer&#8221; and tried to start it in a VM. All went well until the first reboot, and then it would just hang after detecting the (virtual) hard disks. Took me a couple of hours of scratching my head, until I installed pure Debian inside VirtualBox. Strangely, during installation, the hard drive was appearing as <code>hda</code>, but after finishing, would all of a sudden change to <code>sda</code>, which obviously made things go really sour.</p>
+<p><strong>Solution:</strong> change the IDE controller (VM properties -&gt; Storage) from the default PIIX4 to ICH6. I have no clue what all of this means, but the resulting VM now boots fine.</p>
+<h2>Problem 2. <code>fsck</code> during every boot due to &#8220;last mount time in the future&#8221;</h2>
+<p>This one is simple &#8211; the VM has no access to the hardware clock, which by default is expected to be set to UTC, so your true time gets double-adjusted (once in the host, once in the guest). To fix edit <code>/etc/default/rcS</code> and <a href="http://forums.virtualbox.org/viewtopic.php?f=3&#038;t=27334">make sure <code>UTC=no</code></a>.</p>
+<h2>Problem 3. MySQL won&#8217;t start inside Lucid inside OpenVZ</h2>
+<p>Considering that Lucid doesn&#8217;t really support being the host, or the guest of OpenVZ, this comes as no surprise and the bug is marked as &#8220;<a href="https://bugs.launchpad.net/ubuntu/+source/mysql-dfsg-5.1/+bug/566736">Won&#8217;t fix</a>&#8220;. Luckily, there&#8217;s a smart guy, <a href="http://blog.bodhizazen.net/linux/ubuntu-10-04-openvz-templates/">who has a workaround</a>. Solution: edit <code>/etc/init/mysql.conf</code> to have it <code>start on runlevel [2345]</code>, instead of the default method, which depends on networking.</p>
+<p>I think, I now have all the ingredients to start working on the <em>???</em> part!</p>
+	</div>
+
+	<footer>
+		<dl>
+			<dt>Category:</dt>
+			<dd><a href="https://www.dominykas.com/category/geeky-stuff.html" title="View all posts in Geeky stuff" rel="category tag">Geeky stuff</a></dd>
+
+			<dt>Tags:</dt> <dd><ul><li><a href="https://www.dominykas.com/tag/mysql.html" rel="tag">mysql</a></li><li><a href="https://www.dominykas.com/tag/openvz.html" rel="tag">openvz</a></li><li><a href="https://www.dominykas.com/tag/proxmox.html" rel="tag">proxmox</a></li><li><a href="https://www.dominykas.com/tag/ubuntu.html" rel="tag">ubuntu</a></li><li><a href="https://www.dominykas.com/tag/virtualbox.html" rel="tag">virtualbox</a></li><li><a href="https://www.dominykas.com/tag/vm.html" rel="tag">vm</a></li></ul></dd>
+					</dl>
+	</footer>
+
+
+<!-- You can start editing here. -->
+
+<section id="comments">
+	<header class="withrss">
+		<h1>2 Responses to &#8220;(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL&#8221;</h1>
+		<a href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.rss2.xml" class="rss" title="Comment RSS">Comment RSS</a>
+	</header>
+
+
+		<article class="comment  alt " id="comment-1069">
+			<footer>
+				 <img alt='David Sugar' src='http://www.gravatar.com/avatar/917da93f9d06f318cb07d1d6267c4a4f?s=40&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />				<cite><a href='http://www.gnutelephony.org' rel='external nofollow' class='url'>David Sugar</a></cite>
+
+
+				<time datetime="2010-09-13T22:05:39+00:00"><a href="#comment-1069" title="">
+					2010 September 13 at 22:05				</a></time>
+			</footer>
+
+
+			<p>The strange thing is your weird setup actually makes perfect sense to me, at least for setting up testing appliances.  I was thinking of doing a sipwitch testing appliance and a backup/test site for my main public site, which uses mediawiki, and maybe something for something else.  None of these really require a full vm by themselves (which seems a huge waste of resources), I did not wish to mix them together in testing, nor did I wish to dedicate a box just for things that have rather transient use.  Disk space and memory I do have plenty of on my main dev box, I too have become rather familiar with virtualbox, and I also like it&#8217;s small footprint and simplicity.</p>
+<p>It&#8217;s possible with the newer kernel in proxmox 1.6 (it now uses 2.6.32) will remap /dev/sda correctly from first boot, though I think I may try the virtualbox sata if it has better performance.</p>
+
+		</article>
+
+
+
+		<article class="comment  " id="comment-7756">
+			<footer>
+				 <img alt='Abdoulaye Siby' src='http://www.gravatar.com/avatar/2c5b6c0b34b30285db3067112cc55c0b?s=40&amp;d=http%3A%2F%2Fwww.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' />				<cite><a href='http://abdoulaye.com' rel='external nofollow' class='url'>Abdoulaye Siby</a></cite>
+
+
+				<time datetime="2011-08-09T02:58:42+00:00"><a href="#comment-7756" title="">
+					2011 August 9 at 02:58				</a></time>
+			</footer>
+
+
+			<p>Interesting. I thought I was the first one to have this idea. To good this is that at least I know now that what I was doing is not that crazy at all. I also have Windows 7 and Proxmox running on VirtualBox. It works flawlessly and take far less resources when using ONLY OpenVZ containers.</p>
+<p>I have an annoyance that I am experiencing though &#8230; My home network is using 192.168.2.x &#8230; and Proxmox is using 192.168.2.15 (static IP configured inside Proxmox)</p>
+<p>Unfortunately, as soon as I am on another network, the IP 192.168.2.15 will be unavailable. Maybe it&#8217;s just a matter of create an alias for the interface and use that IP instead of the one that matches the current network.</p>
+<p>Cheers.</p>
+
+		</article>
+
+
+	</section>
+
+
+
+	</article>
+
+
+</section>
+
+<footer role="contentinfo" id="contentinfo">
+	<p>&copy; 2009, Dominykas Blyžė.</p>
+	<p>Asking some questions, looping some events is proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+</footer>
+
+
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1761312-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

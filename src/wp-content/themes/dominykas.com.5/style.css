@@ -1,0 +1,391 @@
+/*
+Theme Name: dominykas.com - html5
+Theme URI: https://www.dominykas.com/
+Description: HTML5
+Version: 0.2
+Author: Dominykas Blyze
+Author URI: https://www.dominykas.com/
+*/
+@import 'images/reset.css';
+header, section, nav, footer, hgroup, article { display: block; }
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+
+
+
+#page
+{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+#content
+{
+	width: 630px;
+	float: left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+#sidebar
+{
+	float: right;
+	width: 320px;
+	padding-top: 1em;
+}
+#contentinfo
+{
+	clear: both;
+	padding:1em;
+	text-align: right;
+	font-size: 0.85em;
+	background-color: #eef;
+}
+
+html
+{
+	background: #eef url('images/bg.gif') top repeat-x;
+}
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+h1, h2, h3
+{
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+}
+h1
+{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+h2
+{
+	font-size: 1.33em;
+	font-weight: bold;
+}
+h3
+{
+	font-weight: bold;
+	margin-top: 1.5em;
+	margin-left: 1em;
+	font-size: 1.167em;
+}
+a
+{
+	color: #00f;
+}
+a:visited
+{
+	color: #008;
+}
+a:hover
+{
+	text-decoration: none;
+	text-shadow: #ccf 1px 1px 3px;
+}
+
+
+#banner
+{
+	background-color: #8b5;
+	padding: 0.5em;
+	text-align: center;
+	line-height: 200%;
+	border: 1px solid #242;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#banner,
+#banner a,
+#banner a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+#banner h1
+{
+	font-size: 2em;
+	text-shadow: #242 1px 2px 0;
+}
+#banner h2
+{
+	font-size: 0.85em;
+	font-weight: normal;
+}
+
+
+
+.post
+{
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.post header li
+{
+	float: left;
+	font-size: 0.85em;
+	color: #999;
+}
+.post header li.comments
+{
+	float: right;
+}
+.post header h1
+{
+}
+.post header h1 a
+{
+	text-decoration: none;
+	color: #000;
+	text-shadow: #ccc 2px 2px 2px;
+}
+.post header h1 a:hover
+{
+	text-decoration: underline;
+	text-shadow: none;
+}
+.post footer dl
+{
+	font-size: 0.79em;
+	margin-top: 1em;
+}
+.post footer dl a
+{
+	color: #66f;
+}
+.post footer dd,
+.post footer dt,
+.post footer li,
+.post footer ul
+{
+	display: inline;
+}
+.post footer li,
+.post footer dd
+{
+	margin-right: 0.5em;
+}
+
+.postbody
+{
+	line-height: 150%;
+	clear: both;
+}
+.postbody p
+{
+	margin: 1em;
+}
+.postbody ol,
+.postbody ul
+{
+	margin: 1em;
+}
+.postbody ul ul,
+.postbody ol ul,
+.postbody ol ol,
+.postbody ul ol
+{
+	margin: 0 1em 0.5em 1em;
+}
+.postbody li
+{
+	margin-left: 2em;
+	list-style-position: outside;
+}
+.postbody ol li
+{
+	list-style-type: decimal;
+}
+.postbody ul li
+{
+	list-style-type: square;
+}
+.postbody del
+{
+	text-decoration: line-through;
+	color: #999;
+}
+.postbody blockquote
+{
+	margin-left: 3em;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	font-style: italic;
+}
+.postbody blockquote:before
+{
+	content: '\201C';
+	position: absolute;
+	font-size: 6em;
+	font-weight: bold;
+	margin-left: -0.4em;
+	margin-top: 0.3em;
+	color: #ccc;
+	font-style: normal;
+	font-family: serif;
+}
+
+#sidebar section
+{
+	font-size: 0.85em;
+	line-height: 150%;
+	margin-bottom: 1em;
+	padding: 0.25em 0.5em 0.5em 0.5em;
+	background-color: #eeeeff;
+	border: 1px solid #88f;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+#sidebar section h1
+{
+	font-size: 1.17em;
+}
+#sidebar ul
+{
+	padding-left: 4em;
+	text-indent: -2em;
+}
+#sidebar ul li:before
+{
+	content: "\00BB \0020";
+}
+
+
+
+article section
+{
+	margin-top: 2em;
+}
+article section h1
+{
+	font-size: 1.33em;
+}
+
+.comment
+{
+	font-size: 0.85em;
+	line-height: 150%;
+	border-bottom: 1px solid #ccc;
+	padding: 1em;
+}
+.comment footer
+{
+	font-size: 1.167em;
+}
+.comment footer .avatar
+{
+	float: right;
+	border: 1px solid #ccc;
+}
+.comment footer cite
+{
+	font-weight: bold;
+}
+.comment time
+{
+	display: block;
+}
+.comment time a,
+.comment time a:visited
+{
+	font-size: 0.79em;
+	color: #999;
+	text-decoration: none;
+}
+.comment p
+{
+	margin: 1em;
+}
+.ownercomment
+{
+	background-color: #ffc;
+}
+
+#commentform form
+{
+	margin: 1em;
+}
+#commentform form textarea
+{
+	width: 99%;
+}
+#commentform form button
+{
+	float: right;
+}
+
+
+header.withrss h1
+{
+	display: inline;
+}
+header.withrss a.rss
+{
+	width: 1px;
+	padding-left: 16px;
+	display: inline-block;
+	margin-left: 0.5em;
+	overflow: hidden;
+	text-indent: -999px;
+	background: url('images/feed.png') 0 50% no-repeat;
+}
+
+
+header.contentheader
+{
+	text-align: center;
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #eef;
+	border: 1px solid #88f;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+article
+{
+	background-color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.postbody aside
+{
+	float: right;
+	padding: 0.5em;
+	margin: 0 0 0.5em 0.5em;
+	color: #666;
+	font-size: 0.85em;
+	font-style: italic;
+	width: 30%;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.postbody strong
+{
+	font-weight: bold;
+}
+.postbody em
+{
+	font-style: italic;
+}
+.postbody abbr
+{
+	border-bottom: 1px dashed #333;
+}

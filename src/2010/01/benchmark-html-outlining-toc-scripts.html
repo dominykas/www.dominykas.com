@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+
+	<title>
+		 &raquo; Benchmark: HTML outlining/TOC scripts - Asking some questions, looping some events			</title>
+
+	<meta name="generator" content="WordPress 2.9.2" /> <!-- leave this for stats -->
+
+	<link rel="stylesheet" href="https://www.dominykas.com/wp-content/themes/dominykas.com.5/style.css" type="text/css" />
+	<link rel="pingback" href="https://www.dominykas.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Feed" href="https://www.dominykas.com/index.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Comments Feed" href="https://www.dominykas.com/comments.rss2.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dominykas.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dominykas.com/wp-includes/wlwmanifest.xml" />
+<link rel='index' title='Asking some questions, looping some events' href='https://www.dominykas.com' />
+<link rel='start' title='Hello world!' href='https://www.dominykas.com/2009/12/hello-world.html' />
+<link rel='prev' title='ASP.NET MVC generates invalid ClientIDs' href='https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html' />
+<link rel='next' title='Just how much does performance matter?' href='https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html' />
+
+	<link rel="openid.server" href="http://openid.claimid.com/server" />
+	<link rel="openid.delegate" href="http://openid.claimid.com/dominykas" />
+
+<!--[if IE]>
+<script src="https://www.dominykas.com/wp-content/themes/dominykas.com.5/images/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body><div id="page">
+
+<header role="banner" id="banner">
+	<hgroup>
+		<h1><a href="https://www.dominykas.com/">Asking some questions, looping some events</a></h1>
+		<h2>Dominykas Blyžė has a blog</h2>
+	</hgroup>
+</header>
+
+<nav id="sidebar">
+
+			<section id="recent-posts-2" class="widget widget_recent_entries">		<h1>Recent Posts</h1>		<ul>
+				<li><a href="https://www.dominykas.com/2014/01/but-its-easy.html" title="But it&#8217;s easy&#8230;">But it&#8217;s easy&#8230; </a></li>
+				<li><a href="https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html" title="OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites">OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites </a></li>
+				<li><a href="https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html" title="DublinJS August meetup kata">DublinJS August meetup kata </a></li>
+				<li><a href="https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html" title="Opera Extensions: messaging example">Opera Extensions: messaging example </a></li>
+				<li><a href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" title="(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL </a></li>
+				<li><a href="https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" title="Just how much does performance matter?">Just how much does performance matter? </a></li>
+				<li><a href="https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" title="Benchmark: HTML outlining/TOC scripts">Benchmark: HTML outlining/TOC scripts </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" title="ASP.NET MVC generates invalid ClientIDs">ASP.NET MVC generates invalid ClientIDs </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/javascript-void-must-die.html" title="javascript:void(0) must die">javascript:void(0) must die </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/hello-world.html" title="Hello world!">Hello world! </a></li>
+				</ul>
+		</section><section id="linkcat-8" class="widget widget_links"><h1>My other stuff</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="https://github.com/h5o" rel="me">HTML5 outliner in JS</a></li>
+<li><a href="http://www.d-b.lt/" rel="me">Lietuviškai</a></li>
+<li><a href="http://code.dominykas.com/" rel="me">Some JS/CSS/PHP code</a></li>
+<li><a href="http://twitter.com/dymonaz" rel="me">Twitter</a></li>
+
+	</ul>
+</section>
+
+
+</nav>
+<section id="content" role="main">
+
+
+	    <article class="post singular" id="post-68">
+	<header class="clearfix">
+		<h1><a href="https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" rel="bookmark">Benchmark: HTML outlining/TOC scripts</a></h1>
+		<ul>
+			<li><time datetime="2010-01-18T22:09:12+00:00">January 18, 2010</time></li>
+					</ul>
+	</header>
+
+	<div class="postbody">
+	<p>A bit over a week ago <a href="http://www.wait-till-i.com/2010/01/06/the-table-of-contents-script-my-old-nemesis/">Chris Heilmann published a post on table of contents generators</a>, where he listed a couple of JavaScript methods to do that. It&#8217;s been always in the plans to optimize the performance of <a href="https://github.com/h5o">my own implementation of the HTML5 outlining routine</a> &#8211; and what better way to measure it, than to compare it with some other approaches while I&#8217;m at it. To no surprise, I lost. Big time.<br />
+<span id="more-68"></span></p>
+<h2>Results</h2>
+<ol>
+<li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_yui3.html">YUI based approach</a> (136ms)</li>
+<li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_dom.html">DOM based approach</a> (247ms)</li>
+<li>Stuart Langridge&#8217;s <a href="http://www.kryogenix.org/code/browser/generated-toc/">generated-toc</a> (258ms)</li>
+<li><a href="http://github.com/joshwnj/toc">Josh Johnston&#8217;s solution</a> with jQuery (781ms)</li>
+<li>My own <a href="https://github.com/h5o">HTML5 Outliner</a> (3099ms)</li>
+<li>Chris Heilmann&#8217;s <a href="http://isithackday.com/demos/tocit/toc_js.html">RegExp based approach</a> (4440ms)</li>
+<li><a href="http://lab.diogovincenzi.com/blog/view/table-contents-jquery">Diogo Vincenzi&#8217;s solution</a> with jQuery (9334ms)</li>
+</ol>
+<h3>Methodology</h3>
+<p>The numbers above are based on an 1.5Mb file, which has some 200 headings to use for the TOC table. The actual file, was created out of HTML4 specification part on forms, to reflect a more natural usage. The results were a bit different, when I used my own generated file, which had a lot more headings, and a lot less text.</p>
+<p>The test runner itself would create an <code>iframe</code>, load the test document inside, inject the required script and call it. The <a href="https://github.com/h5osource/browse/trunk/benchmark">source is available</a> on Google Code (though be aware, that you will need to procure and hack the dependencies yourself).</p>
+<p>I ran it on a decent 2.2Ghz laptop, using a vanilla version of Portable Firefox 3.5. With some exceptions (see below), the results were comparable and not unexpected in other browsers.</p>
+<h2>Insights</h2>
+<ul>
+<li>The RegExp based approach was a non-contender from the start, as it doesn&#8217;t really work under any browser, other than Firefox.</li>
+<li>Diogio&#8217;s solution scored so low because it&#8217;s querying the DOM twice inside every loop iteration (I think).</li>
+<li>I am impressed at how well YUI3 performed &#8211; on every browser (incl. IE8), except Opera. I seriously need to follow up on the Opera thing&#8230;</li>
+<li>Speaking of YUI3 &#8211; one needs to go through extra hoops to measure performance, due to YUI loader&#8217;s <code>setTimeout()</code>. And make sure that you have all dependencies in on file, to avoid calls to the Yahoo&#8217;s CDN.</li>
+<li>IE8 didn&#8217;t like 2Mb documents inside an <code>iframe</code> (hence 1.5Mb)</li>
+<li>I have plenty of space for improvement &#8211; it will be fun!</li>
+</ul>
+	</div>
+
+	<footer>
+		<dl>
+			<dt>Category:</dt>
+			<dd><a href="https://www.dominykas.com/category/webbie-stuff.html" title="View all posts in Webbie stuff" rel="category tag">Webbie stuff</a></dd>
+
+			<dt>Tags:</dt> <dd><ul><li><a href="https://www.dominykas.com/tag/benchmark.html" rel="tag">benchmark</a></li><li><a href="https://www.dominykas.com/tag/html.html" rel="tag">html</a></li><li><a href="https://www.dominykas.com/tag/javascript.html" rel="tag">javascript</a></li></ul></dd>
+					</dl>
+	</footer>
+
+
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are closed. -->
+		<p class="nocomments">Comments are closed.</p>
+
+
+
+	</article>
+
+
+</section>
+
+<footer role="contentinfo" id="contentinfo">
+	<p>&copy; 2009, Dominykas Blyžė.</p>
+	<p>Asking some questions, looping some events is proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+</footer>
+
+
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1761312-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+
+	<title>
+		 &raquo; Just how much does performance matter? - Asking some questions, looping some events			</title>
+
+	<meta name="generator" content="WordPress 2.9.2" /> <!-- leave this for stats -->
+
+	<link rel="stylesheet" href="https://www.dominykas.com/wp-content/themes/dominykas.com.5/style.css" type="text/css" />
+	<link rel="pingback" href="https://www.dominykas.com/xmlrpc.php" />
+	<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Feed" href="https://www.dominykas.com/index.rss2.xml" />
+<link rel="alternate" type="application/rss+xml" title="Asking some questions, looping some events &raquo; Comments Feed" href="https://www.dominykas.com/comments.rss2.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.dominykas.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.dominykas.com/wp-includes/wlwmanifest.xml" />
+<link rel='index' title='Asking some questions, looping some events' href='https://www.dominykas.com' />
+<link rel='start' title='Hello world!' href='https://www.dominykas.com/2009/12/hello-world.html' />
+<link rel='prev' title='Benchmark: HTML outlining/TOC scripts' href='https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html' />
+<link rel='next' title='(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL' href='https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html' />
+<meta name="generator" content="WordPress 2.9.2" />
+<link rel='canonical' href='https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html' />
+
+	<link rel="openid.server" href="http://openid.claimid.com/server" />
+	<link rel="openid.delegate" href="http://openid.claimid.com/dominykas" />
+
+<!--[if IE]>
+<script src="https://www.dominykas.com/wp-content/themes/dominykas.com.5/images/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+</head>
+<body><div id="page">
+
+<header role="banner" id="banner">
+	<hgroup>
+		<h1><a href="https://www.dominykas.com/">Asking some questions, looping some events</a></h1>
+		<h2>Dominykas Blyžė has a blog</h2>
+	</hgroup>
+</header>
+
+<nav id="sidebar">
+
+			<section id="recent-posts-2" class="widget widget_recent_entries">		<h1>Recent Posts</h1>		<ul>
+				<li><a href="https://www.dominykas.com/2014/01/but-its-easy.html" title="But it&#8217;s easy&#8230;">But it&#8217;s easy&#8230; </a></li>
+				<li><a href="https://www.dominykas.com/2012/04/omg-omg-nielsen-is-wrong-lets-all-like-build-responsive-sites.html" title="OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites">OMG OMG Nielsen is wrong, let&#8217;s all, like, build responsive sites </a></li>
+				<li><a href="https://www.dominykas.com/2011/08/dublinjs-august-meetup-kata.html" title="DublinJS August meetup kata">DublinJS August meetup kata </a></li>
+				<li><a href="https://www.dominykas.com/2010/11/opera-extensions-messaging-example.html" title="Opera Extensions: messaging example">Opera Extensions: messaging example </a></li>
+				<li><a href="https://www.dominykas.com/2010/05/solved-troubles-with-ubuntu-virtualbox-openvzproxmox-and-mysql.html" title="(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL">(Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL </a></li>
+				<li><a href="https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" title="Just how much does performance matter?">Just how much does performance matter? </a></li>
+				<li><a href="https://www.dominykas.com/2010/01/benchmark-html-outlining-toc-scripts.html" title="Benchmark: HTML outlining/TOC scripts">Benchmark: HTML outlining/TOC scripts </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/asp-net-mvc-generates-invalid-clientids.html" title="ASP.NET MVC generates invalid ClientIDs">ASP.NET MVC generates invalid ClientIDs </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/javascript-void-must-die.html" title="javascript:void(0) must die">javascript:void(0) must die </a></li>
+				<li><a href="https://www.dominykas.com/2009/12/hello-world.html" title="Hello world!">Hello world! </a></li>
+				</ul>
+		</section><section id="linkcat-8" class="widget widget_links"><h1>My other stuff</h1>
+	<ul class='xoxo blogroll'>
+<li><a href="https://github.com/h5o" rel="me">HTML5 outliner in JS</a></li>
+<li><a href="http://www.d-b.lt/" rel="me">Lietuviškai</a></li>
+<li><a href="http://code.dominykas.com/" rel="me">Some JS/CSS/PHP code</a></li>
+<li><a href="http://twitter.com/dymonaz" rel="me">Twitter</a></li>
+
+	</ul>
+</section>
+
+
+</nav>
+<section id="content" role="main">
+
+
+	    <article class="post singular" id="post-82">
+	<header class="clearfix">
+		<h1><a href="https://www.dominykas.com/2010/04/just-how-much-does-performance-matter.html" rel="bookmark">Just how much does performance matter?</a></h1>
+		<ul>
+			<li><time datetime="2010-04-07T21:40:57+00:00">April 7, 2010</time></li>
+					</ul>
+	</header>
+
+	<div class="postbody">
+	<p>I have recently moved my dedicated server to a new provider. I mostly did this for pricing reasons, but there&#8217;s also the benefit of network speed, as most of my visitors and now &#8211; the server itself &#8211; are in Europe. This move, coupled with a few optimizations, has opened my eyes towards some data &#8211; the impact of page load time on &#8220;pages per visit&#8221; metric. While the general theory behind the relationship of the two is clear to everyone, the actual numbers did shock me.<br />
+<span id="more-82"></span><br />
+There is a small community that I am hosting &#8211; it has roughly 2000 members, who are pretty active. As the community does not accept any new members, the results reflect just the <strong>engagement based on page load speed</strong>. I did not really take measurements, and <a href="http://www.google.com/webmasters/">Webmaster Central</a> page speed lab tool is unable to provide the numbers due to the closed nature of the community, I estimate that the average full page <strong>load time decreased from some 8-12s to 3-5s</strong>. The effect on <strong>pageviews? PLUS THIRTY FIVE PERCENT</strong>. There is no change in the number of visits (sessions), but the number of pageviews is up by a third <strong>instantly</strong>. Check out the graph:</p>
+<p style="text-align:center;"><a href="https://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv.png"><img src="https://www.dominykas.com/uploads/2010/04/page-speed-improves-ppv-300x72.png" alt="" title="page-speed-improves-ppv" width="300" height="72" class="aligncenter size-medium wp-image-83"/></a></p>
+<p>There is one more statistically significant website that I had a chance to test. This time, the page load time decreased from 5s to 1.5s. Yet again &#8211; the pages per visit number is up by 12%. Now, here&#8217;s the best part of it all &#8211; the two websites are somewhat related (you may call them &#8220;affiliates&#8221; if you&#8217;d like). Since both of them had substantial speed improvements &#8211; the referral rate from one to the other has actually increased&#8230; <strong>threefold</strong>.</p>
+<p>While I must say, that the actual time on site has not increased as much, the pageview count is what matters a lot if you&#8217;re participating in <abbr title="Pay per click">PPC</abbr>. Funny thing, is that if you <em>are</em> actually participating in <a href="http://www.stevesouders.com/blog/2010/03/29/p3pc-google-adsense/">Google AdSense &#8211; that will be the bottleneck</a>.</p>
+<p>At the end of the day &#8211; the overall user experience improvement is quite immeasurable and the pleasure of having your visitors tell you &#8220;wow this is fast&#8221; is indescribable.</p>
+<p>Worried about premature optimization? Well, it still holds true that you should only optimize where it hurts.</p>
+	</div>
+
+	<footer>
+		<dl>
+			<dt>Category:</dt>
+			<dd><a href="https://www.dominykas.com/category/webbie-stuff.html" title="View all posts in Webbie stuff" rel="category tag">Webbie stuff</a></dd>
+
+			<dt>Tags:</dt> <dd><ul><li><a href="https://www.dominykas.com/tag/analytics.html" rel="tag">analytics</a></li><li><a href="https://www.dominykas.com/tag/performance.html" rel="tag">performance</a></li></ul></dd>
+					</dl>
+	</footer>
+
+
+<!-- You can start editing here. -->
+
+
+			<!-- If comments are closed. -->
+		<p class="nocomments">Comments are closed.</p>
+
+
+
+	</article>
+
+
+</section>
+
+<footer role="contentinfo" id="contentinfo">
+	<p>&copy; 2009, Dominykas Blyžė.</p>
+	<p>Asking some questions, looping some events is proudly powered by <a href="http://wordpress.org/">WordPress</a>.</p>
+</footer>
+
+
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1761312-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
