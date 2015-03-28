@@ -1,3 +1,8 @@
+---
+published: 2012-04-12T13:42:53+00:00
+tags: responsive-design, webbie-stuff
+---
+
 # OMG OMG Nielsen is wrong, let’s all, like, build responsive sites
 
 <p>Two days ago Jakob Nielsen published a new Alertbox column: <a href="http://www.useit.com/alertbox/mobile-vs-full-sites.html">Mobile Site vs. Full Site</a>, which seems to have caused some uproar in the web community, <a href="https://twitter.com/karenmcgrane/status/189816427795062784">openly mocking his ideas</a>:</p>

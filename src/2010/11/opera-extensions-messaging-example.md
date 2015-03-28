@@ -1,3 +1,8 @@
+---
+published: 2010-11-04T01:08:33+00:00
+tags: extensions, javascript, opera, webbie-stuff
+---
+
 # Opera Extensions: messaging example
 
 <p>I already <a href="http://twitter.com/dymonaz/status/29608503399">vented out</a> my <a href="http://dev.opera.com/forums/topic/793632">frustration with examples that have flaws</a>, so this one is more constructive and tries to actually explain and solve things. You’re welcome to skip all of that and just <a href="http://code.dominykas.com/opera-extensions/title_in_popup.oex">get the example code</a>.</p>

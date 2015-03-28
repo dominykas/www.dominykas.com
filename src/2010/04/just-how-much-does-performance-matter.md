@@ -1,3 +1,8 @@
+---
+published: 2010-04-07T21:40:57+00:00
+tags: analytics, performance, webbie-stuff
+---
+
 # Just how much does performance matter?
 
 <p>I have recently moved my dedicated server to a new provider. I mostly did this for pricing reasons, but there’s also the benefit of network speed, as most of my visitors and now – the server itself – are in Europe. This move, coupled with a few optimizations, has opened my eyes towards some data – the impact of page load time on “pages per visit” metric. While the general theory behind the relationship of the two is clear to everyone, the actual numbers did shock me.<br>

@@ -1,3 +1,8 @@
+---
+published: 2011-08-14T16:26:03+00:00
+tags: dublinjs, javascript, webbie-stuff
+---
+
 # DublinJS August meetup kata
 
 <p>I’m doing a kata for <a href="http://www.meetup.com/Javascript-Dublin/events/27369271/">this month’s</a> meetup of <a href="https://groups.google.com/group/dublinjs">Javascript Dublin</a> group and my choice is <a href="http://codingdojo.org/cgi-bin/wiki.pl?KataRomanNumerals"><strong>Roman Numerals</strong></a>. It’s simple enough and it also demos some interesting transformations of the code during the whole TDD process (if you stick to the mantra of “write the simplest possible thing”). I found that I could also put some of the new ES5 features into practice: <code>Object.keys()</code>, <code>Array.prototype.forEach()</code> and <code>Array.prototype.reduce()</code>.</p>

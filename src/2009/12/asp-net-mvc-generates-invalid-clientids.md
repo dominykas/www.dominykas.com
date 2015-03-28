@@ -1,3 +1,8 @@
+---
+published: 2009-12-19T16:03:05+00:00
+tags: asp-net-mvc, html, yui, webbie-stuff
+---
+
 # ASP.NET MVC generates invalid ClientIDs
 
 <p>This week I had a joy of spending several hours trying to solve and intermitently happening bug. In short, some 2 times out of 3 the <a href="http://developer.yahoo.com/yui/selector/">YUI selector</a> utility failed to lookup elements in an XHR loaded HTML fragment. After digging quite deep into the YUI code, I found that it was actually the fault of the way <a href="http://www.asp.net/mvc/">ASP.NET MVC</a> treats partial views. </p>

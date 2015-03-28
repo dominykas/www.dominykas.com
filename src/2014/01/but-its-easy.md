@@ -1,3 +1,8 @@
+---
+published: 2014-01-05T14:52:15+00:00
+tags: complexity, overengineering, simplicity, underengineering, geeky-stuff
+---
+
 # But it’s easy…
 
 <p>Here’s a sample of how your “it’s easy” and my “sure, probably half an hour” becomes “half a day”:</p>

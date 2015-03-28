@@ -1,3 +1,8 @@
+---
+published: 2010-01-18T22:09:12+00:00
+tags: benchmark, html, javascript, webbie-stuff
+---
+
 # Benchmark: HTML outlining/TOC scripts
 
 <p>A bit over a week ago <a href="http://www.wait-till-i.com/2010/01/06/the-table-of-contents-script-my-old-nemesis/">Chris Heilmann published a post on table of contents generators</a>, where he listed a couple of JavaScript methods to do that. It’s been always in the plans to optimize the performance of <a href="https://github.com/h5o">my own implementation of the HTML5 outlining routine</a> – and what better way to measure it, than to compare it with some other approaches while I’m at it. To no surprise, I lost. Big time.<br>

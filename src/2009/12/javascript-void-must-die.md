@@ -1,3 +1,8 @@
+---
+published: 2009-12-02T23:32:31+00:00
+tags: accessibility, html, javascript, webbie-stuff
+---
+
 # javascript:void(0) must die
 
 <p>Pretty much two weeks ago I dropped my notes from <a href="http://2009.full-frontal.org/">FullFrontal 2009</a> onto developer’s forum at work. And one full colleague of mine enquired why did I say that “<code>javascript:void(0)</code> must die”. I didn’t really have a chance to follow it up until now (happy birthday, dear blog).<br>
