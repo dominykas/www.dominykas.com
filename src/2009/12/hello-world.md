@@ -1,6 +1,6 @@
 ---
 published: 2009-12-02T16:28:24+00:00
-tags: uncategorized
+tags: meta
 ---
 
 # Hello world!
