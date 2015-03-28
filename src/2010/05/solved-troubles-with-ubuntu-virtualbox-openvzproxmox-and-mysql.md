@@ -1,6 +1,6 @@
 ---
 published: 2010-05-16T23:42:46+00:00
-tags: mysql, openvz, proxmox, ubuntu, virtualbox, vm, geeky-stuff
+tags: mysql, openvz, proxmox, ubuntu, virtualbox, vm, geeky stuff
 ---
 
 # (Solved) troubles with Ubuntu, VirtualBox, OpenVZ/Proxmox and MySQL

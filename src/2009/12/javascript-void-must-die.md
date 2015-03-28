@@ -1,6 +1,6 @@
 ---
 published: 2009-12-02T23:32:31+00:00
-tags: accessibility, html, javascript, webbie-stuff
+tags: accessibility, html, javascript, webbie stuff
 ---
 
 # javascript:void(0) must die

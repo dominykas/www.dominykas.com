@@ -1,6 +1,6 @@
 ---
 published: 2010-01-18T22:09:12+00:00
-tags: benchmark, html, javascript, webbie-stuff
+tags: benchmark, html, javascript, webbie stuff
 ---
 
 # Benchmark: HTML outlining/TOC scripts

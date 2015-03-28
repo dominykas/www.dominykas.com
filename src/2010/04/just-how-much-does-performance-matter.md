@@ -1,6 +1,6 @@
 ---
 published: 2010-04-07T21:40:57+00:00
-tags: analytics, performance, webbie-stuff
+tags: analytics, performance, webbie stuff
 ---
 
 # Just how much does performance matter?

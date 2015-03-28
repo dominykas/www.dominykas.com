@@ -1,6 +1,6 @@
 ---
 published: 2010-11-04T01:08:33+00:00
-tags: extensions, javascript, opera, webbie-stuff
+tags: extensions, javascript, opera, webbie stuff
 ---
 
 # Opera Extensions: messaging example

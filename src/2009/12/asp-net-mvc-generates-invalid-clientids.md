@@ -1,6 +1,6 @@
 ---
 published: 2009-12-19T16:03:05+00:00
-tags: asp-net-mvc, html, yui, webbie-stuff
+tags: asp.net mvc, html, yui, webbie stuff
 ---
 
 # ASP.NET MVC generates invalid ClientIDs

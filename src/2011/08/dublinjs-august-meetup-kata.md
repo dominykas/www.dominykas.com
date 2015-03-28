@@ -1,6 +1,6 @@
 ---
 published: 2011-08-14T16:26:03+00:00
-tags: dublinjs, javascript, webbie-stuff
+tags: dublinjs, javascript, webbie stuff
 ---
 
 # DublinJS August meetup kata

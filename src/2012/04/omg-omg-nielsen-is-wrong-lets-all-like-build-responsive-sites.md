@@ -1,6 +1,6 @@
 ---
 published: 2012-04-12T13:42:53+00:00
-tags: responsive-design, webbie-stuff
+tags: responsive design, webbie stuff
 ---
 
 # OMG OMG Nielsen is wrong, let’s all, like, build responsive sites

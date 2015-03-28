@@ -1,6 +1,6 @@
 ---
 published: 2014-01-05T14:52:15+00:00
-tags: complexity, overengineering, simplicity, underengineering, geeky-stuff
+tags: complexity, overengineering, simplicity, underengineering, geeky stuff
 ---
 
 # But it’s easy…
