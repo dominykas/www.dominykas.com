@@ -23,6 +23,7 @@
   },
   "homepage": "https://www.dominykas.com/",
   "devDependencies": {
-    "harp": "0.15.x"
+    "harp": "0.15.x",
+    "terraform": "git@github.com:dominykas/terraform.git#fcde863b5be8578b561cc05674439c8cd1fea520"
   }
 }

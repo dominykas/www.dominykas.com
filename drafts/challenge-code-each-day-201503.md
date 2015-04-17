@@ -26,3 +26,4 @@ notes:
 * last minute commits with 0% battery
 * let go (e.g. jsdom3 can wait until tomorrow)
 * small chunks
+* if I can do it in an hour, it's probably worth doing only if it's automating the stuff to be done, instead of actual doing
