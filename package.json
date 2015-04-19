@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "harp server src",
-    "compile": "harp compile src public"
+    "compile": "harp compile src public",
+    "cleanup": "rm src/**/index.md; rm src/**/_data.json; rm src/**/**/index.md; rm src/**/**/_data.json; rm -rf src/tag; mkdir -p src/tag;"
   },
   "repository": {
     "type": "git",
