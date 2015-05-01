@@ -27,3 +27,5 @@ notes:
 * let go (e.g. jsdom3 can wait until tomorrow)
 * small chunks
 * if I can do it in an hour, it's probably worth doing only if it's automating the stuff to be done, instead of actual doing
+* after a 68 day streak, all I can write down is this bulletpoint... why am I even bothering with this anymore?
+  Is this a good enough contribution? It does light up the green dot in GH, alright, but I have no creative juice at all.
